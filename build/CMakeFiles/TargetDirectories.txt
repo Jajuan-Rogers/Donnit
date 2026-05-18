@@ -1,0 +1,3 @@
+/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles/Donnit.dir
+/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles/edit_cache.dir
+/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles/rebuild_cache.dir
