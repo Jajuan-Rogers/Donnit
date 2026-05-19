@@ -28,13 +28,23 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/bits/errno.h \
   /usr/include/bits/floatn-common.h \
   /usr/include/bits/floatn.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/fp-logb.h \
   /usr/include/bits/getopt_core.h \
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/in.h \
+  /usr/include/bits/iscanonical.h \
   /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
   /usr/include/bits/local_lim.h \
   /usr/include/bits/locale.h \
   /usr/include/bits/long-double.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls-macros.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/mathcalls.h \
   /usr/include/bits/posix1_lim.h \
   /usr/include/bits/posix2_lim.h \
   /usr/include/bits/posix_opt.h \
@@ -113,6 +123,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
   /usr/include/byteswap.h \
@@ -120,6 +131,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bit \
   /usr/include/c++/16.1.1/bits/alloc_traits.h \
   /usr/include/c++/16.1.1/bits/allocator.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
   /usr/include/c++/16.1.1/bits/basic_string.h \
   /usr/include/c++/16.1.1/bits/basic_string.tcc \
   /usr/include/c++/16.1.1/bits/char_traits.h \
@@ -137,7 +150,13 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bits/functional_hash.h \
   /usr/include/c++/16.1.1/bits/hash_bytes.h \
   /usr/include/c++/16.1.1/bits/invoke.h \
+  /usr/include/c++/16.1.1/bits/ios_base.h \
+  /usr/include/c++/16.1.1/bits/istream.tcc \
   /usr/include/c++/16.1.1/bits/iterator_concepts.h \
+  /usr/include/c++/16.1.1/bits/locale_classes.h \
+  /usr/include/c++/16.1.1/bits/locale_classes.tcc \
+  /usr/include/c++/16.1.1/bits/locale_facets.h \
+  /usr/include/c++/16.1.1/bits/locale_facets.tcc \
   /usr/include/c++/16.1.1/bits/localefwd.h \
   /usr/include/c++/16.1.1/bits/max_size_type.h \
   /usr/include/c++/16.1.1/bits/memory_resource.h \
@@ -148,7 +167,10 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bits/new_except.h \
   /usr/include/c++/16.1.1/bits/new_throw.h \
   /usr/include/c++/16.1.1/bits/node_handle.h \
+  /usr/include/c++/16.1.1/bits/ostream.h \
+  /usr/include/c++/16.1.1/bits/ostream.tcc \
   /usr/include/c++/16.1.1/bits/ostream_insert.h \
+  /usr/include/c++/16.1.1/bits/ostream_print.h \
   /usr/include/c++/16.1.1/bits/parse_numbers.h \
   /usr/include/c++/16.1.1/bits/postypes.h \
   /usr/include/c++/16.1.1/bits/predefined_ops.h \
@@ -158,6 +180,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bits/ranges_cmp.h \
   /usr/include/c++/16.1.1/bits/ranges_util.h \
   /usr/include/c++/16.1.1/bits/requires_hosted.h \
+  /usr/include/c++/16.1.1/bits/specfun.h \
   /usr/include/c++/16.1.1/bits/std_abs.h \
   /usr/include/c++/16.1.1/bits/std_mutex.h \
   /usr/include/c++/16.1.1/bits/stdexcept_except.h \
@@ -173,6 +196,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bits/stl_multimap.h \
   /usr/include/c++/16.1.1/bits/stl_pair.h \
   /usr/include/c++/16.1.1/bits/stl_tree.h \
+  /usr/include/c++/16.1.1/bits/streambuf.tcc \
+  /usr/include/c++/16.1.1/bits/streambuf_iterator.h \
   /usr/include/c++/16.1.1/bits/string_view.tcc \
   /usr/include/c++/16.1.1/bits/stringfwd.h \
   /usr/include/c++/16.1.1/bits/unique_lock.h \
@@ -183,6 +208,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/cctype \
   /usr/include/c++/16.1.1/cerrno \
   /usr/include/c++/16.1.1/clocale \
+  /usr/include/c++/16.1.1/cmath \
   /usr/include/c++/16.1.1/compare \
   /usr/include/c++/16.1.1/concepts \
   /usr/include/c++/16.1.1/csignal \
@@ -191,8 +217,10 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/cstdint \
   /usr/include/c++/16.1.1/cstdio \
   /usr/include/c++/16.1.1/cstdlib \
+  /usr/include/c++/16.1.1/cstring \
   /usr/include/c++/16.1.1/ctime \
   /usr/include/c++/16.1.1/cwchar \
+  /usr/include/c++/16.1.1/cwctype \
   /usr/include/c++/16.1.1/debug/assertions.h \
   /usr/include/c++/16.1.1/debug/debug.h \
   /usr/include/c++/16.1.1/exception \
@@ -203,18 +231,36 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/ext/string_conversions.h \
   /usr/include/c++/16.1.1/ext/type_traits.h \
   /usr/include/c++/16.1.1/initializer_list \
+  /usr/include/c++/16.1.1/ios \
   /usr/include/c++/16.1.1/iosfwd \
+  /usr/include/c++/16.1.1/iostream \
+  /usr/include/c++/16.1.1/istream \
   /usr/include/c++/16.1.1/limits \
   /usr/include/c++/16.1.1/map \
   /usr/include/c++/16.1.1/mutex \
   /usr/include/c++/16.1.1/new \
   /usr/include/c++/16.1.1/numbers \
+  /usr/include/c++/16.1.1/ostream \
   /usr/include/c++/16.1.1/pstl/pstl_config.h \
   /usr/include/c++/16.1.1/ratio \
   /usr/include/c++/16.1.1/stdexcept \
   /usr/include/c++/16.1.1/stdlib.h \
+  /usr/include/c++/16.1.1/streambuf \
   /usr/include/c++/16.1.1/string \
   /usr/include/c++/16.1.1/string_view \
+  /usr/include/c++/16.1.1/system_error \
+  /usr/include/c++/16.1.1/tr1/bessel_function.tcc \
+  /usr/include/c++/16.1.1/tr1/beta_function.tcc \
+  /usr/include/c++/16.1.1/tr1/ell_integral.tcc \
+  /usr/include/c++/16.1.1/tr1/exp_integral.tcc \
+  /usr/include/c++/16.1.1/tr1/gamma.tcc \
+  /usr/include/c++/16.1.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/16.1.1/tr1/legendre_function.tcc \
+  /usr/include/c++/16.1.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/16.1.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/16.1.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/16.1.1/tr1/riemann_zeta.tcc \
+  /usr/include/c++/16.1.1/tr1/special_function_util.h \
   /usr/include/c++/16.1.1/tuple \
   /usr/include/c++/16.1.1/type_traits \
   /usr/include/c++/16.1.1/typeinfo \
@@ -223,6 +269,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
@@ -232,6 +280,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/fmt/base.h \
+  /usr/include/fmt/format.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
   /usr/include/limits.h \
@@ -243,6 +293,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/locale.h \
+  /usr/include/math.h \
   /usr/include/ncpp/Cell.hh \
   /usr/include/ncpp/CellStyle.hh \
   /usr/include/ncpp/NCAlign.hh \
@@ -280,6 +331,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
@@ -294,6 +346,7 @@ Donnit: /opt/cuda/lib64/libOpenCL.so.1 \
   /usr/lib/libatomic.so \
   /usr/lib/libatomic_asneeded.so \
   /usr/lib/libc.so \
+  /usr/lib/libfmt.so \
   /usr/lib/libgcc_s.so \
   /usr/lib/libgcc_s.so.1 \
   /usr/lib/libm.so \
@@ -529,1052 +582,1158 @@ Donnit: /opt/cuda/lib64/libOpenCL.so.1 \
   CMakeFiles/Donnit.dir/src/main.cpp.o
 
 
-/usr/lib32/libz.so.1:
+/usr/lib32/libzstd.so.1:
 
 /usr/lib32/libxml2.so.16:
 
-/usr/lib32/libxcb-shape.so.0:
-
-/usr/lib32/libvulkan.so.1:
-
-/usr/lib32/libva.so.2:
+/usr/lib32/libxcb.so.1:
 
 /usr/lib32/libxcb-xfixes.so.0:
 
+/usr/lib32/libxcb-shm.so.0:
+
+/usr/lib32/libxcb-shape.so.0:
+
+/usr/lib32/libxcb-dri3.so.0:
+
+/usr/lib32/libva-x11.so.2:
+
 /usr/lib32/libva-drm.so.2:
+
+/usr/lib32/libunistring.so.5:
 
 /usr/lib32/libpthread.so.0:
 
-/usr/lib32/libpcre2-8.so.0:
+/usr/lib32/libpng16.so.16:
+
+/usr/lib32/libpipewire-0.3.so.0:
+
+/usr/lib32/libp11-kit.so.0:
+
+/usr/lib32/libnettle.so.9:
 
 /usr/lib32/libncursesw.so.6:
 
-/usr/lib32/libmount.so.1:
+/usr/lib32/liblzma.so.5:
 
 /usr/lib32/libidn2.so.0:
+
+/usr/lib32/libhogweed.so.7:
 
 /usr/lib32/libgomp.so.1:
 
 /usr/lib32/libgobject-2.0.so.0:
 
-/usr/lib32/libdrm.so.2:
+/usr/lib32/libgnutls.so.30:
 
-/usr/lib32/libdl.so.2:
-
-/usr/lib32/libX11.so.6:
-
-/usr/lib32/libX11-xcb.so.1:
-
-/usr/lib/libzstd.so.1:
-
-/usr/lib/libzmq.so.5:
-
-/usr/lib/libzimg.so.2:
-
-/usr/lib/libxvidcore.so.4:
-
-/usr/lib/libxcb-shm.so.0:
-
-/usr/lib/libx264.so.165:
-
-/usr/lib/libwebp.so.7:
-
-/usr/lib/libvulkan.so.1:
-
-/usr/lib/libvorbisenc.so.2:
-
-/usr/lib/libvorbis.so.0:
-
-/usr/lib/libvidstab.so.1.2:
-
-/usr/lib32/libxcb-shm.so.0:
-
-/usr/lib/libvdpau.so.1:
-
-/usr/lib/libva-x11.so.2:
-
-/usr/lib/libunistring.so.5:
-
-/usr/lib/libtheoradec.so.2:
-
-/usr/lib32/libdbus-1.so.3:
-
-/usr/lib/libthai.so.0:
-
-/usr/lib/libva-drm.so.2:
-
-/usr/lib/libsystemd.so.0:
-
-/usr/lib/libssh.so.4:
-
-/usr/lib32/libxcb.so.1:
-
-/usr/lib/libsrt.so.1.5:
-
-/usr/lib/libsharpyuv.so.0:
-
-/usr/lib32/libXdmcp.so.6:
-
-/usr/lib/libshaderc_shared.so.1:
-
-/usr/lib/libsndfile.so.1:
-
-/usr/lib/libseccomp.so.2:
-
-/usr/lib/libsamplerate.so.0:
-
-/usr/lib/librubberband.so.3:
-
-/usr/lib/librsvg-2.so.2:
-
-/usr/lib/librom1394.so.0:
-
-/usr/lib/librav1e.so.0.8:
-
-/usr/lib/libpixman-1.so.0:
-
-/usr/lib/libvmaf.so.3:
-
-/usr/lib/libpcre2-8.so.0:
-
-/usr/lib/libpangoft2-1.0.so.0:
-
-/usr/lib/libpangocairo-1.0.so.0:
-
-/usr/lib/libopus.so.0:
-
-/usr/lib/libopenmpt.so.0:
-
-/usr/lib/libopenjp2.so.7:
-
-/usr/lib/libopencore-amrnb.so.0:
-
-/usr/lib/libvpx.so.12:
-
-/usr/lib/libogg.so.0:
-
-/usr/lib/libxcb-xfixes.so.0:
-
-/usr/lib/libopencore-amrwb.so.0:
-
-/usr/lib/libnettle.so.9:
-
-/usr/lib/libncursesw.so.6:
-
-/usr/lib/libmvec.so.1:
-
-/usr/lib/libmp3lame.so.0:
-
-/usr/lib/libmount.so.1:
-
-/usr/lib32/libcrypto.so.3:
-
-/usr/lib/libmd.so.0:
-
-/usr/lib/libm.so.6:
-
-/usr/lib/liblzma.so.5:
-
-/usr/lib/libpango-1.0.so.0:
-
-/usr/lib/libjxl_cms.so.0.11:
-
-/usr/lib/libicuuc.so.78:
-
-/usr/lib/libxcb-dri3.so.0:
-
-/usr/lib/libhwy.so.1:
-
-/usr/lib/libunibreak.so.7:
-
-/usr/lib/libhogweed.so.7:
-
-/usr/lib/libgraphite2.so.3:
-
-/usr/lib/libpipewire-0.3.so.0:
-
-/usr/lib/libgpm.so.2:
-
-/usr/lib32/libXext.so.6:
-
-/usr/lib/libgobject-2.0.so.0:
-
-/usr/lib/libunwind.so.8:
-
-/usr/lib/libgmp.so.10:
-
-/usr/lib/libgmodule-2.0.so.0:
-
-/usr/lib32/libexpat.so.1:
-
-/usr/lib/libglslang.so.16:
-
-/usr/lib/libglslang-default-resource-limits.so.16:
-
-/usr/lib/libglib-2.0.so.0:
-
-/usr/lib32/libxcb-dri3.so.0:
-
-/usr/lib/libgio-2.0.so.0:
-
-/usr/lib/libfftw3.so.3:
-
-/usr/lib/libexpat.so.1:
-
-/usr/lib/libdvdread.so.8:
-
-/usr/lib/libdvdnav.so.4:
-
-/usr/lib/libva.so.2:
-
-/usr/lib/libdrm.so.2:
-
-/usr/lib/libdovi.so.3:
-
-/usr/lib/libdbus-1.so.3:
-
-/usr/lib/libpng16.so.16:
-
-/usr/lib/libdav1d.so.7:
-
-/usr/lib/libcrypto.so.3:
-
-/usr/lib/libcairo.so.2:
-
-/usr/lib/libfontconfig.so.1:
-
-/usr/lib/libc_nonshared.a:
-
-/usr/lib/libbz2.so.1.0:
-
-/usr/lib/libbsd.so.0:
-
-/usr/lib/libbs2b.so.0:
-
-/usr/lib/libbrotlidec.so.1:
-
-/usr/lib/libbluray.so.3:
-
-/usr/lib/libavdevice.so.62:
-
-/usr/lib/libavcodec.so.62:
-
-/usr/lib/libavc1394.so.0:
-
-/usr/lib/libasyncns.so.0:
-
-/usr/lib/libass.so.9:
-
-/usr/lib/libXv.so.1:
-
-/usr/lib/libXrender.so.1:
-
-/usr/lib/libXfixes.so.3:
-
-/usr/lib/libXdmcp.so.6:
-
-/usr/lib/libglycin-2.so.0:
-
-/usr/lib/libX11.so.6:
-
-/usr/lib/pulseaudio/libpulsecommon-17.0.so:
-
-/usr/lib/libxcb-render.so.0:
-
-/usr/lib/libX11-xcb.so.1:
-
-/usr/lib/libSPIRV-Tools-opt.so:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
-
-/usr/lib/libv4lconvert.so.0:
-
-/usr/lib/libgdk_pixbuf-2.0.so.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
-
-/usr/lib/libnotcurses++.so:
-
-/usr/lib/libx265.so.215:
-
-/usr/lib/libm.so:
-
-/usr/lib/libgcc_s.so.1:
-
-/usr/lib/libgcc_s.so:
-
-/usr/lib/libbrotlienc.so.1:
-
-/usr/lib/libatomic.so:
-
-/usr/lib/libraw1394.so.11:
-
-/usr/lib/crti.o:
-
-/usr/lib/libmodplug.so.1:
-
-/usr/lib/Scrt1.o:
-
-/opt/cuda/lib64/libOpenCL.so.1:
-
-/usr/lib32/libgio-2.0.so.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/syslimits.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h:
-
-/usr/lib/libidn2.so.0:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/limits.h:
-
-/usr/include/unistd.h:
-
-/usr/include/time.h:
-
-/usr/include/sys/types.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/sys/ucontext.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/lib/libiec61883.so.0:
-
-/usr/include/sched.h:
-
-/usr/lib/libjpeg.so.8:
-
-/usr/include/pthread.h:
-
-/usr/lib/libicudata.so.78:
-
-/usr/include/notcurses/notcurses.h:
-
-/usr/include/notcurses/ncseqs.h:
-
-/usr/include/c++/16.1.1/bits/chrono.h:
-
-/usr/include/strings.h:
-
-/usr/include/signal.h:
-
-/usr/include/c++/16.1.1/bits/exception_defines.h:
-
-/usr/include/c++/16.1.1/bits/allocator.h:
-
-/usr/include/c++/16.1.1/backward/binders.h:
-
-/usr/lib32/libbrotlienc.so.1:
-
-/usr/include/byteswap.h:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/include/stdio.h:
-
-/usr/include/bits/wordsize.h:
-
-/usr/lib/libdeflate.so.0:
-
-/usr/include/bits/timesize.h:
-
-/usr/include/bits/unistd_ext.h:
-
-/usr/include/bits/uio_lim.h:
-
-/usr/include/bits/types/wint_t.h:
-
-/usr/lib/libffi.so.8:
-
-/usr/include/bits/sigcontext.h:
-
-/usr/lib32/libblkid.so.1:
-
-/usr/include/bits/types/timer_t.h:
-
-/usr/include/c++/16.1.1/bits/std_abs.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/lib/libplacebo.so.360:
-
-/usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/bits/types/struct_iovec.h:
-
-/usr/include/asm-generic/socket.h:
-
-/usr/include/bits/types/sigset_t.h:
-
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/c++/16.1.1/bits/ranges_cmp.h:
-
-/usr/include/bits/xopen_lim.h:
-
-/usr/include/bits/types/sigevent_t.h:
-
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/types/locale_t.h:
-
-/usr/lib32/libp11-kit.so.0:
-
-/usr/include/bits/types/sig_atomic_t.h:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/bits/types/__locale_t.h:
-
-/usr/include/netinet/in.h:
-
-/usr/include/c++/16.1.1/bits/move.h:
-
-/usr/include/c++/16.1.1/bits/cxxabi_forced.h:
-
-/usr/include/bits/types/__fpos64_t.h:
-
-/usr/include/c++/16.1.1/bits/charconv.h:
-
-/usr/include/c++/16.1.1/ext/string_conversions.h:
-
-/usr/include/bits/time64.h:
-
-/usr/include/bits/stdlib-float.h:
-
-/usr/include/c++/16.1.1/bits/char_traits.h:
-
-/usr/include/bits/types/time_t.h:
-
-/usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/16.1.1/bits/range_access.h:
-
-/usr/lib/libatomic_asneeded.so:
-
-/usr/include/bits/types/struct_timeval.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/stdint-least.h:
-
-/usr/include/c++/16.1.1/clocale:
-
-/usr/lib32/liblzma.so.5:
-
-/usr/lib/libpulse.so.0:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/lib32/libXau.so.6:
-
-/usr/include/c++/16.1.1/bits/cpp_type_traits.h:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/lib32/libicuuc.so.78:
-
-/usr/lib/libvorbisfile.so.3:
-
-/usr/include/bits/posix_opt.h:
-
-/usr/include/bits/endianness.h:
-
-/usr/include/c++/16.1.1/bit:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/bits/types/error_t.h:
-
-/usr/include/asm/socket.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/c++/16.1.1/bits/utility.h:
-
-/usr/include/bits/getopt_core.h:
-
-/usr/include/bits/siginfo-consts-arch.h:
-
-/usr/include/bits/signum-generic.h:
-
-/usr/lib/libsodium.so.26:
-
-/usr/include/bits/confname.h:
+/usr/lib32/libgmp.so.10:
 
 /usr/lib32/libglib-2.0.so.0:
 
-/usr/lib32/libbrotlidec.so.1:
+/usr/lib32/libgio-2.0.so.0:
 
-/usr/include/bits/byteswap.h:
+/usr/include/c++/16.1.1/tr1/beta_function.tcc:
 
-/usr/include/bits/pthread_stack_min-dynamic.h:
+/usr/include/bits/signum-generic.h:
 
-/usr/lib/libwebpmux.so.3:
+/usr/include/c++/16.1.1/tr1/riemann_zeta.tcc:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
+/usr/include/c++/16.1.1/string_view:
 
-/usr/include/bits/environments.h:
+/usr/include/c++/16.1.1/streambuf:
 
-/usr/include/bits/types/struct_FILE.h:
+/usr/include/c++/16.1.1/numbers:
 
-/usr/include/bits/ss_flags.h:
-
-/usr/lib/libgsm.so.1:
-
-/usr/include/asm/types.h:
-
-/usr/include/bits/sigthread.h:
-
-/usr/include/alloca.h:
-
-/home/benten/projects/programming/cpp/Donnit/src/main.cpp:
-
-/usr/include/c++/16.1.1/ext/alloc_traits.h:
-
-/usr/lib/libgnutls.so.30:
-
-/usr/include/c++/16.1.1/bits/uses_allocator.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/16.1.1/cstdarg:
-
-/usr/include/bits/posix2_lim.h:
-
-/usr/include/bits/sigevent-consts.h:
-
-/usr/include/bits/types/stack_t.h:
-
-/usr/lib/libpgm-5.3.so.0:
-
-/usr/lib/libp11-kit.so.0:
-
-/usr/include/c++/16.1.1/cwchar:
-
-/usr/include/bits/types/sigval_t.h:
-
-/usr/include/c++/16.1.1/stdexcept:
-
-/usr/lib32/libasound.so.2:
-
-/usr/include/c++/16.1.1/bits/uses_allocator_args.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/lib32/libgmodule-2.0.so.0:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/lib/libXau.so.6:
-
-/usr/include/c++/16.1.1/cstdint:
-
-/usr/lib/libdl.so.2:
-
-/usr/include/c++/16.1.1/initializer_list:
-
-/usr/include/bits/sigaction.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/16.1.1/ratio:
-
-/usr/lib32/libgnutls.so.30:
-
-/usr/lib/libxcb.so.1:
-
-/usr/include/bits/endian.h:
-
-/usr/include/sys/single_threaded.h:
-
-/usr/include/c++/16.1.1/bits/stdexcept_throw.h:
-
-/usr/include/bits/types/struct_osockaddr.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/lib/libv4l2.so.0:
-
-/usr/include/bits/types/siginfo_t.h:
-
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/features.h:
-
-/usr/include/bits/sched.h:
-
-/usr/lib/libasound.so.2:
-
-/usr/include/ncpp/NCKey.hh:
-
-/usr/lib32/libbrotlicommon.so.1:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/bits/floatn.h:
-
-/usr/lib/libswresample.so.6:
-
-/usr/include/c++/16.1.1/bits/alloc_traits.h:
-
-/usr/include/c++/16.1.1/bits/new_except.h:
-
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/bits/waitflags.h:
-
-/usr/include/c++/16.1.1/bits/new_allocator.h:
-
-/usr/include/ctype.h:
-
-/usr/include/bits/types/struct_sched_param.h:
-
-/usr/include/c++/16.1.1/compare:
-
-/usr/lib/libavutil.so.60:
-
-/usr/include/bits/long-double.h:
-
-/usr/include/bits/siginfo-arch.h:
-
-/usr/include/c++/16.1.1/ext/numeric_traits.h:
-
-/usr/lib/libbrotlicommon.so.1:
-
-/usr/lib/libavformat.so.62:
-
-/usr/include/wchar.h:
-
-/usr/include/bits/posix1_lim.h:
-
-/usr/include/gnu/stubs.h:
-
-/usr/lib32/libtasn1.so.6:
-
-/usr/lib/libc.so:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/lib/libtasn1.so.6:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/lib/libxcb-shape.so.0:
-
-/usr/include/asm/sockios.h:
-
-/usr/include/c++/16.1.1/bits/ranges_util.h:
-
-/usr/lib/liblcms2.so.2:
-
-/usr/include/c++/16.1.1/bits/requires_hosted.h:
-
-/usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/bits/socket.h:
-
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
-
-/usr/include/bits/select.h:
-
-/usr/include/c++/16.1.1/bits/localefwd.h:
-
-/usr/include/ncpp/Plane.hh:
-
-/usr/lib32/libfontconfig.so.1:
-
-/usr/lib/libtheoraenc.so.2:
-
-/usr/include/bits/setjmp.h:
-
-/usr/lib32/libhogweed.so.7:
-
-/usr/include/bits/local_lim.h:
-
-/usr/include/c++/16.1.1/bits/stdexcept_throwfwd.h:
-
-/usr/lib32/libva-x11.so.2:
-
-/usr/lib32/libunistring.so.5:
-
-/usr/include/c++/16.1.1/bits/string_view.tcc:
-
-/usr/include/c++/16.1.1/bits/basic_string.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o:
-
-/usr/include/c++/16.1.1/bits/memory_resource.h:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/c++/16.1.1/bits/std_mutex.h:
-
-/usr/include/bits/sockaddr.h:
-
-/usr/include/bits/siginfo-consts.h:
-
-/usr/include/c++/16.1.1/bits/basic_string.h:
-
-/usr/include/c++/16.1.1/pstl/pstl_config.h:
-
-/usr/include/bits/types/mbstate_t.h:
-
-/usr/include/bits/signal_ext.h:
-
-/usr/lib32/libbz2.so.1.0:
-
-/usr/include/bits/types/struct_sigstack.h:
-
-/usr/include/bits/signum-arch.h:
-
-/usr/lib/libSPIRV-Tools.so:
-
-/usr/include/c++/16.1.1/bits/concept_check.h:
-
-/usr/lib/libvpl.so.2:
-
-/usr/include/string.h:
-
-/usr/include/bits/socket_type.h:
-
-/usr/include/asm/posix_types_64.h:
-
-/usr/include/bits/time.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/c++/16.1.1/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/16.1.1/concepts:
-
-/usr/include/c++/16.1.1/bits/erase_if.h:
-
-/usr/lib/libjxl.so.0.11:
-
-/usr/include/c++/16.1.1/bits/exception.h:
-
-/usr/lib/libblkid.so.1:
-
-/usr/include/c++/16.1.1/bits/exception_ptr.h:
-
-/usr/include/c++/16.1.1/bits/functional_hash.h:
-
-/usr/lib/libspeex.so.1:
-
-/usr/lib/libjxl_threads.so.0.11:
-
-/usr/include/c++/16.1.1/bits/hash_bytes.h:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/ncpp/NCBox.hh:
-
-/usr/include/c++/16.1.1/bits/invoke.h:
-
-/usr/include/c++/16.1.1/bits/iterator_concepts.h:
-
-/usr/include/c++/16.1.1/bits/max_size_type.h:
-
-/usr/lib/libgomp.so.1:
-
-/usr/include/c++/16.1.1/bits/nested_exception.h:
-
-/usr/lib32/libffi.so.8:
-
-/usr/lib/libharfbuzz.so.0:
-
-/usr/include/ncpp/Root.hh:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/16.1.1/bits/new_throw.h:
-
-/usr/lib32/libSPIRV-Tools.so:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/16.1.1/new:
-
-/usr/include/c++/16.1.1/bits/node_handle.h:
-
-/usr/include/ncpp/Palette.hh:
-
-/usr/include/c++/16.1.1/ext/type_traits.h:
-
-/usr/include/ncpp/_helpers.hh:
-
-/usr/include/c++/16.1.1/bits/ostream_insert.h:
-
-/usr/include/c++/16.1.1/bits/parse_numbers.h:
-
-/usr/include/c++/16.1.1/bits/predefined_ops.h:
-
-/usr/include/c++/16.1.1/bits/memoryfwd.h:
-
-/usr/include/c++/16.1.1/bits/postypes.h:
-
-/usr/include/bits/errno.h:
-
-/usr/include/c++/16.1.1/bits/ranges_base.h:
-
-/usr/include/c++/16.1.1/bits/stdexcept_except.h:
-
-/usr/include/c++/16.1.1/bits/stl_algobase.h:
-
-/usr/lib/libsndio.so.7:
-
-/usr/include/c++/16.1.1/bits/stl_construct.h:
-
-/usr/include/bits/locale.h:
-
-/usr/include/c++/16.1.1/bits/stl_function.h:
-
-/usr/lib32/libpipewire-0.3.so.0:
-
-/usr/include/c++/16.1.1/bits/stl_iterator.h:
-
-/usr/lib/libz.so.1:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/16.1.1/cstdlib:
-
-/usr/lib32/libpng16.so.16:
-
-/usr/include/c++/16.1.1/string:
-
-/usr/include/c++/16.1.1/bits/stl_multimap.h:
-
-/usr/include/c++/16.1.1/bits/stl_pair.h:
-
-/usr/lib/libfribidi.so.0:
-
-/usr/lib/crtn.o:
-
-/usr/include/c++/16.1.1/bits/stl_tree.h:
-
-/usr/include/sys/socket.h:
-
-/usr/include/ncpp/Cell.hh:
-
-/usr/include/c++/16.1.1/bits/stringfwd.h:
-
-/usr/include/c++/16.1.1/bits/unique_lock.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h:
-
-/usr/include/c++/16.1.1/cctype:
-
-/usr/lib/libleancrypto.so.1:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/c++/16.1.1/bits/ptr_traits.h:
-
-/usr/include/c++/16.1.1/cerrno:
-
-/usr/lib/libFLAC.so.14:
-
-/usr/include/bits/floatn-common.h:
-
-/usr/include/c++/16.1.1/csignal:
-
-/usr/include/c++/16.1.1/bits/version.h:
-
-/usr/include/ncpp/NotCurses.hh:
-
-/usr/lib32/libzstd.so.1:
-
-/usr/include/c++/16.1.1/cstddef:
-
-/usr/lib/libsnappy.so.1:
-
-/usr/lib/libfreetype.so.6:
-
-/usr/include/ncpp/CellStyle.hh:
-
-/usr/lib/libc.so.6:
-
-/usr/include/c++/16.1.1/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/16.1.1/cstdio:
-
-/usr/lib32/libSPIRV-Tools-opt.so:
-
-/usr/include/c++/16.1.1/ctime:
-
-/usr/lib/libSvtAv1Enc.so.4:
-
-/usr/include/c++/16.1.1/debug/assertions.h:
-
-/usr/include/c++/16.1.1/debug/debug.h:
-
-CMakeFiles/Donnit.dir/src/main.cpp.o:
-
-/usr/include/ncpp/_flag_enum_operator_helpers.hh:
-
-/usr/include/c++/16.1.1/ext/aligned_buffer.h:
-
-/usr/include/c++/16.1.1/ext/atomicity.h:
-
-/usr/lib/libswscale.so.9:
-
-/usr/include/bits/timex.h:
-
-/usr/include/c++/16.1.1/bits/functexcept.h:
-
-/usr/include/c++/16.1.1/iosfwd:
-
-/usr/include/c++/16.1.1/bits/stl_map.h:
-
-/usr/include/c++/16.1.1/limits:
-
-/usr/lib/libxml2.so.16:
-
-/usr/lib/libavfilter.so.11:
-
-/usr/include/c++/16.1.1/map:
+/usr/include/c++/16.1.1/bits/ios_base.h:
 
 /usr/include/c++/16.1.1/mutex:
 
 /usr/lib32/libsystemd.so.0:
 
-/usr/include/c++/16.1.1/stdlib.h:
+/usr/lib/libxml2.so.16:
 
-/usr/lib32/libnettle.so.9:
+/usr/include/c++/16.1.1/limits:
 
-/usr/include/c++/16.1.1/string_view:
+/usr/include/c++/16.1.1/bits/stl_map.h:
 
-/usr/include/limits.h:
+/usr/include/c++/16.1.1/iostream:
 
-/usr/include/bits/types/__sigset_t.h:
+/usr/include/c++/16.1.1/bits/stl_algobase.h:
 
-/usr/include/c++/16.1.1/tuple:
+/usr/lib/libavfilter.so.11:
+
+/usr/include/math.h:
+
+/usr/include/c++/16.1.1/iosfwd:
+
+/usr/include/c++/16.1.1/bits/functexcept.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/c++/16.1.1/tr1/bessel_function.tcc:
+
+/usr/lib/libswscale.so.9:
+
+/usr/include/c++/16.1.1/ext/atomicity.h:
+
+/usr/include/c++/16.1.1/ext/aligned_buffer.h:
+
+/usr/include/ncpp/_flag_enum_operator_helpers.hh:
+
+/usr/include/c++/16.1.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/16.1.1/debug/assertions.h:
+
+/usr/include/c++/16.1.1/bits/specfun.h:
+
+/usr/lib/libSvtAv1Enc.so.4:
+
+/usr/include/c++/16.1.1/ctime:
+
+/usr/include/c++/16.1.1/cstdio:
+
+/usr/include/c++/16.1.1/csignal:
+
+/usr/include/bits/floatn-common.h:
+
+/usr/include/c++/16.1.1/cerrno:
+
+/usr/include/c++/16.1.1/bits/ptr_traits.h:
+
+/usr/lib32/libicuuc.so.78:
+
+/usr/include/linux/close_range.h:
+
+/usr/lib/libleancrypto.so.1:
+
+/usr/include/c++/16.1.1/bits/stringfwd.h:
+
+/usr/include/ncpp/Cell.hh:
+
+/usr/include/c++/16.1.1/cstddef:
+
+/usr/include/c++/16.1.1/bits/streambuf.tcc:
+
+/usr/include/c++/16.1.1/ios:
+
+/usr/include/c++/16.1.1/bits/ranges_util.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/lib/libxcb-shape.so.0:
+
+/usr/lib/libfribidi.so.0:
+
+/usr/include/c++/16.1.1/bits/stl_pair.h:
+
+/usr/include/c++/16.1.1/string:
+
+/usr/include/c++/16.1.1/cstdlib:
+
+/usr/lib/libz.so.1:
+
+/usr/include/c++/16.1.1/bits/stl_iterator.h:
+
+/usr/include/c++/16.1.1/bits/stl_function.h:
+
+/usr/include/c++/16.1.1/tr1/gamma.tcc:
+
+/usr/include/c++/16.1.1/bits/stdexcept_except.h:
+
+/usr/include/c++/16.1.1/bits/ranges_base.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/c++/16.1.1/bits/memoryfwd.h:
+
+/usr/include/c++/16.1.1/bits/predefined_ops.h:
+
+/usr/include/c++/16.1.1/bits/parse_numbers.h:
+
+/usr/include/c++/16.1.1/ostream:
+
+/usr/include/c++/16.1.1/new:
+
+/usr/include/c++/16.1.1/tr1/poly_hermite.tcc:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/16.1.1/bits/basic_ios.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/16.1.1/bits/max_size_type.h:
 
 /usr/lib32/libxcb-render.so.0:
 
-/usr/lib/libmpg123.so.0:
+/usr/include/c++/16.1.1/bits/locale_facets.h:
 
-/usr/include/c++/16.1.1/exception:
+/usr/include/c++/16.1.1/bits/iterator_concepts.h:
 
-/usr/include/c++/16.1.1/type_traits:
+/usr/include/c++/16.1.1/bits/invoke.h:
 
-/usr/lib32/libicudata.so.78:
+/usr/include/c++/16.1.1/bits/functional_hash.h:
 
-/usr/lib/libnotcurses-core.so:
+/usr/include/c++/16.1.1/bits/exception_ptr.h:
 
-/usr/include/bits/sigstack.h:
+/usr/lib/libblkid.so.1:
 
-/usr/include/c++/16.1.1/typeinfo:
+/usr/include/c++/16.1.1/bits/exception.h:
 
-/usr/lib32/libXfixes.so.3:
+/usr/lib/libjxl.so.0.11:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+/usr/include/c++/16.1.1/bits/cxxabi_init_exception.h:
 
-/usr/lib/libdatrie.so.1:
+/usr/include/c++/16.1.1/istream:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+/usr/lib/libc_nonshared.a:
 
-/usr/include/bits/sigstksz.h:
+/usr/lib/libfontconfig.so.1:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+/usr/include/bits/locale.h:
 
-/usr/lib/libnotcurses.so:
+/usr/include/c++/16.1.1/bits/concept_check.h:
 
-/usr/include/bits/waitstatus.h:
+/usr/lib/libSPIRV-Tools.so:
+
+/usr/include/c++/16.1.1/bits/exception_defines.h:
+
+/usr/include/c++/16.1.1/bits/chrono.h:
+
+/usr/include/c++/16.1.1/ext/string_conversions.h:
+
+/usr/include/c++/16.1.1/bits/char_traits.h:
+
+/usr/include/c++/16.1.1/bits/memory_resource.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o:
+
+/usr/include/c++/16.1.1/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/16.1.1/bits/basic_string.tcc:
+
+/usr/include/c++/16.1.1/pstl/pstl_config.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h:
+
+/usr/include/c++/16.1.1/bits/basic_string.h:
+
+/usr/lib32/libz.so.1:
+
+/usr/include/c++/16.1.1/bits/allocator.h:
+
+/usr/include/c++/16.1.1/bits/alloc_traits.h:
+
+/usr/include/c++/16.1.1/bits/new_except.h:
+
+/usr/lib32/libpcre2-8.so.0:
+
+/usr/lib/libswresample.so.6:
+
+/usr/include/c++/16.1.1/bit:
+
+/usr/include/bits/siginfo-consts.h:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/c++/16.1.1/stdlib.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/c++/16.1.1/ext/type_traits.h:
+
+/usr/include/ncpp/Palette.hh:
+
+/usr/include/ncpp/_helpers.hh:
+
+/usr/include/bits/setjmp.h:
+
+/usr/lib/libtheoraenc.so.2:
+
+/usr/lib32/libmount.so.1:
+
+/usr/lib32/libfontconfig.so.1:
+
+/usr/include/c++/16.1.1/bits/localefwd.h:
 
 /usr/include/bits/wchar.h:
 
-/usr/include/bits/types/struct___jmp_buf_tag.h:
+/usr/include/bits/waitstatus.h:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+/usr/lib/libnotcurses.so:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/bits/select.h:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+/usr/include/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+/usr/include/c++/16.1.1/bits/streambuf_iterator.h:
 
-/usr/lib32/libfreetype.so.6:
+/usr/include/bits/types/struct_timespec.h:
 
-/usr/include/bits/getopt_posix.h:
+/usr/include/c++/16.1.1/tr1/legendre_function.tcc:
 
-/usr/include/errno.h:
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/libavformat.so.62:
+
+/usr/lib/libc.so.6:
+
+/usr/include/bits/fp-fast.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
+/usr/lib/libiec61883.so.0:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/lib32/libSPIRV-Tools.so:
+
+/usr/include/c++/16.1.1/cstdarg:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/types/timer_t.h:
+
+/usr/lib32/libblkid.so.1:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/bits/iscanonical.h:
+
+CMakeFiles/Donnit.dir/src/main.cpp.o:
+
+/usr/lib32/libicudata.so.78:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/c++/16.1.1/compare:
+
+/usr/lib32/libtasn1.so.6:
+
+/usr/include/bits/socket.h:
 
 /usr/include/bits/in.h:
 
 /usr/include/ncpp/ncpp.hh:
 
-/usr/include/notcurses/ncport.h:
+/usr/include/bits/types/struct_sched_param.h:
 
-/usr/include/features-time64.h:
+/usr/include/c++/16.1.1/bits/ostream_print.h:
 
-/usr/include/notcurses/nckeys.h:
+/usr/include/c++/16.1.1/bits/locale_classes.tcc:
 
-/usr/include/bits/types/__sigval_t.h:
+/usr/include/c++/16.1.1/bits/nested_exception.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/lib/libm.so:
 
-/usr/include/linux/limits.h:
+/usr/lib/libx265.so.215:
 
-/usr/lib/libsoxr.so.0:
+/usr/include/c++/16.1.1/clocale:
 
-/usr/include/linux/sched/types.h:
+/usr/include/bits/getopt_posix.h:
 
-/usr/include/linux/stddef.h:
+/usr/include/errno.h:
 
-/usr/lib32/libgmp.so.10:
+/usr/include/c++/16.1.1/bits/postypes.h:
 
-/usr/lib/libjack.so.0:
+/usr/lib32/libfreetype.so.6:
 
-/usr/include/ncpp/_exceptions.hh:
+/usr/include/bits/siginfo-consts-arch.h:
 
-/usr/include/linux/types.h:
+/usr/include/bits/sigstack.h:
 
-/usr/lib/libpthread.so.0:
+/usr/include/c++/16.1.1/tr1/poly_laguerre.tcc:
 
-/usr/lib/libaom.so.3:
+/usr/include/c++/16.1.1/typeinfo:
 
-/usr/lib/libstdc++.so:
+/usr/lib/libnotcurses-core.so:
 
-/usr/include/locale.h:
+/usr/include/bits/getopt_core.h:
 
-/usr/include/c++/16.1.1/numbers:
+/usr/include/c++/16.1.1/bits/utility.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/lib/libavutil.so.60:
+
+/usr/include/bits/socket_type.h:
+
+/usr/include/string.h:
+
+/usr/lib/libvpl.so.2:
+
+/usr/include/asm/bitsperlong.h:
+
+/usr/include/bits/floatn.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/bits/uio_lim.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/asm/posix_types.h:
+
+/usr/include/bits/time.h:
 
 /usr/include/ncpp/NCAlign.hh:
 
-/usr/lib/libXext.so.6:
+/usr/include/asm/posix_types_64.h:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/types/siginfo_t.h:
+
+/usr/include/c++/16.1.1/bits/new_allocator.h:
+
+/usr/include/ctype.h:
+
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/c++/16.1.1/tuple:
+
+/usr/include/bits/types/struct_osockaddr.h:
+
+/usr/include/c++/16.1.1/bits/stdexcept_throw.h:
+
+/usr/include/c++/16.1.1/bits/std_mutex.h:
+
+/usr/include/bits/endian.h:
+
+/usr/lib/libxcb.so.1:
+
+/usr/include/c++/16.1.1/ratio:
+
+/usr/include/notcurses/nckeys.h:
+
+/usr/include/sys/single_threaded.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/c++/16.1.1/initializer_list:
+
+/usr/lib/libdl.so.2:
+
+/usr/lib/libc.so:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/16.1.1/bits/uses_allocator_args.h:
+
+/usr/lib32/libasound.so.2:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/c++/16.1.1/bits/node_handle.h:
+
+/usr/lib32/libbrotlicommon.so.1:
+
+/usr/include/c++/16.1.1/bits/charconv.h:
+
+/usr/include/bits/mathcalls-macros.h:
+
+/usr/include/c++/16.1.1/ext/alloc_traits.h:
+
+/home/benten/projects/programming/cpp/Donnit/src/main.cpp:
+
+/usr/include/c++/16.1.1/cmath:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/16.1.1/tr1/hypergeometric.tcc:
+
+/usr/include/c++/16.1.1/cstdint:
+
+/usr/include/asm/types.h:
+
+/usr/include/bits/ss_flags.h:
+
+/usr/include/bits/types/struct_FILE.h:
+
+/usr/include/bits/environments.h:
+
+/usr/lib32/libvulkan.so.1:
+
+/usr/include/c++/16.1.1/bits/ostream.h:
+
+/usr/include/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/16.1.1/cstring:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/16.1.1/concepts:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/confname.h:
+
+/usr/lib/libsodium.so.26:
+
+/usr/include/ncpp/NotCurses.hh:
+
+/usr/include/c++/16.1.1/bits/locale_facets.tcc:
+
+/usr/include/c++/16.1.1/bits/stl_construct.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/lib/libgraphite2.so.3:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/bits/types/sigval_t.h:
+
+/usr/include/bits/endianness.h:
+
+/usr/lib/libbrotlicommon.so.1:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/lib/libvorbisfile.so.3:
+
+/usr/include/signal.h:
+
+/usr/lib/libv4l2.so.0:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/16.1.1/bits/cpp_type_traits.h:
+
+/usr/lib/liblcms2.so.2:
+
+/usr/lib32/libXau.so.6:
+
+/usr/include/c++/16.1.1/bits/new_throw.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/lib/libpulse.so.0:
+
+/usr/include/bits/signal_ext.h:
+
+/usr/include/bits/types/mbstate_t.h:
+
+/usr/lib/libmpg123.so.0:
+
+/usr/include/c++/16.1.1/cwchar:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/lib/libp11-kit.so.0:
+
+/usr/lib/libpgm-5.3.so.0:
+
+/usr/include/bits/sigevent-consts.h:
+
+/usr/include/c++/16.1.1/stdexcept:
+
+/usr/include/bits/types/stack_t.h:
+
+/usr/lib32/libSPIRV-Tools-opt.so:
+
+/usr/lib32/libbz2.so.1.0:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/sigstksz.h:
+
+/usr/lib/libspeex.so.1:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/c++/16.1.1/bits/cxxabi_forced.h:
+
+/usr/include/c++/16.1.1/bits/move.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/c++/16.1.1/exception:
+
+/usr/include/bits/stdint-least.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/types/struct_timeval.h:
+
+/usr/lib/libatomic_asneeded.so:
+
+/usr/include/c++/16.1.1/bits/range_access.h:
+
+/usr/include/c++/16.1.1/bits/istream.tcc:
+
+/usr/include/bits/struct_mutex.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/types/struct_sigstack.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/bits/time64.h:
+
+/usr/lib/libsndio.so.7:
+
+/usr/include/c++/16.1.1/bits/uses_allocator.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/16.1.1/bits/erase_if.h:
+
+/usr/lib/libgnutls.so.30:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/types/FILE.h:
+
+/usr/include/c++/16.1.1/bits/requires_hosted.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/bits/types/__locale_t.h:
+
+/usr/include/c++/16.1.1/bits/locale_classes.h:
+
+/usr/include/c++/16.1.1/bits/hash_bytes.h:
+
+/usr/include/bits/types/struct_tm.h:
+
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/c++/16.1.1/cwctype:
+
+/usr/include/ncpp/NCBox.hh:
+
+/usr/include/bits/types/locale_t.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/lib32/libva.so.2:
+
+/usr/include/bits/types/sigevent_t.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/c++/16.1.1/tr1/ell_integral.tcc:
+
+/usr/include/c++/16.1.1/bits/ranges_cmp.h:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/16.1.1/bits/ostream.tcc:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/lib/libffi.so.8:
+
+/usr/include/bits/unistd_ext.h:
+
+/usr/include/bits/timesize.h:
+
+/usr/lib/libdeflate.so.0:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/wctype-wchar.h:
+
+/usr/include/byteswap.h:
+
+/usr/lib32/libbrotlienc.so.1:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/lib/libdatrie.so.1:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/lib/libgmodule-2.0.so.0:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/lib/libwebpmux.so.3:
+
+/usr/include/c++/16.1.1/cctype:
+
+/usr/include/bits/mathcalls-helper-functions.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h:
+
+/usr/include/features-time64.h:
+
+/usr/lib/libgomp.so.1:
+
+/usr/include/notcurses/ncport.h:
+
+/usr/include/c++/16.1.1/bits/stl_iterator_base_types.h:
+
+/usr/include/fmt/base.h:
+
+/usr/lib/libncursesw.so.6:
+
+/usr/include/fmt/format.h:
+
+/usr/lib/libavdevice.so.62:
+
+/usr/include/gnu/stubs.h:
+
+/usr/lib32/libgmodule-2.0.so.0:
+
+/usr/include/sys/socket.h:
+
+/usr/include/limits.h:
+
+/usr/lib/crtn.o:
+
+/usr/include/linux/limits.h:
+
+/usr/include/linux/sched/types.h:
+
+/usr/include/linux/types.h:
+
+/usr/include/c++/16.1.1/map:
+
+/usr/include/ncpp/_exceptions.hh:
+
+/usr/lib32/libXfixes.so.3:
+
+/usr/lib/libjack.so.0:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
+/usr/include/locale.h:
+
+/usr/lib/libstdc++.so:
+
+/usr/include/bits/sigthread.h:
+
+/usr/lib/libpthread.so.0:
+
+/usr/include/ncpp/CellStyle.hh:
+
+/usr/lib/libfreetype.so.6:
+
+/usr/lib/libsnappy.so.1:
+
+/usr/include/ncpp/NCKey.hh:
+
+/usr/lib/libasound.so.2:
 
 /usr/include/ncpp/NCLogLevel.hh:
+
+/usr/lib/libXext.so.6:
+
+/usr/include/ncpp/Plane.hh:
+
+/usr/lib/libXau.so.6:
+
+/usr/include/ncpp/Root.hh:
+
+/usr/include/c++/16.1.1/system_error:
+
+/usr/lib/libharfbuzz.so.0:
+
+/usr/include/bits/types/wint_t.h:
+
+/usr/lib32/libffi.so.8:
+
+/usr/include/notcurses/notcurses.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/16.1.1/ext/numeric_traits.h:
+
+/usr/lib/libjpeg.so.8:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/lib32/libbrotlidec.so.1:
+
+/usr/include/stdlib.h:
+
+/usr/include/c++/16.1.1/bits/ostream_insert.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/c++/16.1.1/bits/unique_lock.h:
+
+/usr/include/time.h:
+
+/usr/include/unistd.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/limits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stddef.h:
+
+/usr/lib/libidn2.so.0:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h:
+
+/usr/include/c++/16.1.1/bits/string_view.tcc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/syslimits.h:
+
+/opt/cuda/lib64/libOpenCL.so.1:
+
+/usr/lib/Scrt1.o:
+
+/usr/include/c++/16.1.1/tr1/exp_integral.tcc:
+
+/usr/include/c++/16.1.1/tr1/special_function_util.h:
+
+/usr/lib/libmodplug.so.1:
+
+/usr/lib/libraw1394.so.11:
+
+/usr/lib/libatomic.so:
+
+/usr/lib/libbrotlienc.so.1:
+
+/usr/lib/libfmt.so:
+
+/usr/lib/libgcc_s.so:
+
+/usr/lib/libFLAC.so.14:
+
+/usr/lib/libgcc_s.so.1:
+
+/usr/lib/libgdk_pixbuf-2.0.so.0:
+
+/usr/include/c++/16.1.1/bits/std_abs.h:
+
+/usr/lib/libaom.so.3:
+
+/usr/lib/libv4lconvert.so.0:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
+
+/usr/lib/libtasn1.so.6:
+
+/usr/lib/ld-linux-x86-64.so.2:
+
+/usr/include/c++/16.1.1/debug/debug.h:
+
+/usr/lib/libSPIRV-Tools-opt.so:
+
+/usr/lib/libxcb-render.so.0:
+
+/usr/lib/pulseaudio/libpulsecommon-17.0.so:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/lib/libX11.so.6:
+
+/usr/lib/libXdmcp.so.6:
+
+/usr/lib/libXfixes.so.3:
+
+/usr/lib/libXrender.so.1:
+
+/usr/lib/libnotcurses++.so:
+
+/usr/lib/libXv.so.1:
+
+/usr/lib/libass.so.9:
+
+/usr/include/c++/16.1.1/bits/stl_multimap.h:
+
+/usr/lib/libasyncns.so.0:
+
+/usr/lib/libavc1394.so.0:
+
+/usr/lib/libavcodec.so.62:
+
+/usr/lib/libbluray.so.3:
+
+/usr/lib/libbrotlidec.so.1:
+
+/usr/include/c++/16.1.1/backward/binders.h:
+
+/usr/lib/libbs2b.so.0:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/lib/libbsd.so.0:
+
+/usr/lib/libbz2.so.1.0:
+
+/usr/lib/libcairo.so.2:
+
+/usr/lib/libcrypto.so.3:
+
+/usr/lib/libdav1d.so.7:
+
+/usr/lib/libpng16.so.16:
+
+/usr/lib/libgsm.so.1:
+
+/usr/lib/libdbus-1.so.3:
+
+/usr/lib/libdovi.so.3:
+
+/usr/lib/libdrm.so.2:
+
+/usr/lib/libva.so.2:
+
+/usr/lib/libglycin-2.so.0:
+
+/usr/lib/libdvdnav.so.4:
+
+/usr/lib/libdvdread.so.8:
+
+/usr/lib/libexpat.so.1:
+
+/usr/include/c++/16.1.1/type_traits:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/lib/libfftw3.so.3:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/lib/libgio-2.0.so.0:
+
+/usr/lib/libglib-2.0.so.0:
+
+/usr/lib/libX11-xcb.so.1:
+
+/usr/lib/libglslang-default-resource-limits.so.16:
+
+/usr/lib/libglslang.so.16:
+
+/usr/include/bits/signum-arch.h:
+
+/usr/lib/crti.o:
+
+/usr/lib32/libexpat.so.1:
+
+/usr/lib/libgmp.so.10:
+
+/usr/lib/libunwind.so.8:
+
+/usr/include/bits/types/struct_iovec.h:
+
+/usr/lib/libgobject-2.0.so.0:
+
+/usr/lib32/libXext.so.6:
+
+/usr/lib/libpipewire-0.3.so.0:
+
+/usr/include/notcurses/ncseqs.h:
+
+/usr/lib/libhogweed.so.7:
+
+/usr/lib/libunibreak.so.7:
+
+/usr/lib/libhwy.so.1:
+
+/usr/lib/libxcb-dri3.so.0:
+
+/usr/include/endian.h:
+
+/usr/lib/libicuuc.so.78:
+
+/usr/include/linux/posix_types.h:
+
+/usr/lib/libjxl_cms.so.0.11:
+
+/usr/lib/libpango-1.0.so.0:
+
+/usr/lib/liblzma.so.5:
+
+/usr/lib/libm.so.6:
+
+/usr/lib/libicudata.so.78:
+
+/usr/lib/libmd.so.0:
+
+/usr/lib32/libcrypto.so.3:
+
+/usr/lib/libmount.so.1:
+
+/usr/lib/libmp3lame.so.0:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/lib/libmvec.so.1:
+
+/usr/lib/libnettle.so.9:
+
+/usr/lib/libopencore-amrwb.so.0:
+
+/usr/include/asm/errno.h:
+
+/usr/include/c++/16.1.1/bits/stdexcept_throwfwd.h:
+
+/usr/lib/libxcb-xfixes.so.0:
+
+/usr/lib/libogg.so.0:
+
+/usr/include/c++/16.1.1/bits/stl_tree.h:
+
+/usr/include/bits/types/__sigval_t.h:
+
+/usr/lib/libvpx.so.12:
+
+/usr/include/bits/waitflags.h:
+
+/usr/lib/libopencore-amrnb.so.0:
+
+/usr/include/bits/uintn-identity.h:
+
+/usr/lib/libopenjp2.so.7:
+
+/usr/lib/libopenmpt.so.0:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
+
+/usr/lib/libpangocairo-1.0.so.0:
+
+/usr/lib/libpangoft2-1.0.so.0:
+
+/usr/lib/libpcre2-8.so.0:
+
+/usr/lib/libvmaf.so.3:
+
+/usr/lib/libpixman-1.so.0:
+
+/usr/lib/librav1e.so.0.8:
+
+/usr/include/c++/16.1.1/bits/version.h:
+
+/usr/include/bits/types/sig_atomic_t.h:
+
+/usr/lib/librom1394.so.0:
+
+/usr/lib/librsvg-2.so.2:
+
+/usr/lib/librubberband.so.3:
+
+/usr/lib/libsamplerate.so.0:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/lib/libgpm.so.2:
+
+/usr/lib/libseccomp.so.2:
+
+/usr/lib/libsoxr.so.0:
+
+/usr/lib/libsndfile.so.1:
+
+/usr/lib/libshaderc_shared.so.1:
+
+/usr/lib32/libXdmcp.so.6:
+
+/usr/lib/libsharpyuv.so.0:
+
+/usr/include/bits/siginfo-arch.h:
+
+/usr/lib/libopus.so.0:
+
+/usr/lib/libsrt.so.1.5:
+
+/usr/lib/libssh.so.4:
+
+/usr/lib/libsystemd.so.0:
+
+/usr/lib/libjxl_threads.so.0.11:
+
+/usr/lib/libthai.so.0:
+
+/usr/lib32/libdbus-1.so.3:
+
+/usr/lib/libtheoradec.so.2:
+
+/usr/lib/libunistring.so.5:
+
+/usr/lib/libva-x11.so.2:
+
+/usr/lib/libvdpau.so.1:
+
+/usr/include/c++/16.1.1/bits/basic_ios.tcc:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/lib/libva-drm.so.2:
+
+/usr/lib/libvidstab.so.1.2:
+
+/usr/lib/libvorbis.so.0:
+
+/usr/lib/libvorbisenc.so.2:
+
+/usr/lib/libvulkan.so.1:
+
+/usr/lib/libwebp.so.7:
+
+/usr/lib/libx264.so.165:
+
+/usr/lib/libxcb-shm.so.0:
+
+/usr/include/strings.h:
+
+/usr/lib/libxvidcore.so.4:
+
+/usr/lib/libzimg.so.2:
+
+/usr/lib/libzmq.so.5:
+
+/usr/lib/libplacebo.so.360:
+
+/usr/include/sys/cdefs.h:
+
+/usr/lib/libzstd.so.1:
+
+/usr/lib32/libX11-xcb.so.1:
+
+/usr/lib32/libX11.so.6:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/lib32/libdl.so.2:
+
+/usr/lib32/libdrm.so.2:
