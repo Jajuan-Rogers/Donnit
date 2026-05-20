@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Donnit.dir/link.d CMakeFiles/Donnit.dir/src/main.cpp.o -o Donnit  -lnotcurses++ -lnotcurses -lnotcurses-core -lfmt
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Donnit.dir/link.d CMakeFiles/Donnit.dir/src/main.cpp.o CMakeFiles/Donnit.dir/src/Window.cpp.o -o Donnit  -lnotcurses++ -lnotcurses -lnotcurses-core -lfmt

@@ -85,12 +85,12 @@ clean: CMakeFiles/Donnit.dir/clean
 CMakeFiles/Donnit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Donnit.dir/build.make CMakeFiles/Donnit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Donnit.dir/build.make CMakeFiles/Donnit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles --progress-num=1,2 "Built target Donnit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles --progress-num=1,2,3 "Built target Donnit"
 .PHONY : CMakeFiles/Donnit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Donnit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benten/projects/programming/cpp/Donnit/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benten/projects/programming/cpp/Donnit/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Donnit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/benten/projects/programming/cpp/Donnit/build/CMakeFiles 0
 .PHONY : CMakeFiles/Donnit.dir/rule
@@ -102,7 +102,7 @@ Donnit: CMakeFiles/Donnit.dir/rule
 # codegen rule for target.
 CMakeFiles/Donnit.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Donnit.dir/build.make CMakeFiles/Donnit.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles --progress-num=1,2 "Finished codegen for target Donnit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target Donnit"
 .PHONY : CMakeFiles/Donnit.dir/codegen
 
 # clean rule for target.

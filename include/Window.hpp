@@ -1,12 +1,16 @@
+#pragma once
+
+
 #include "ncpp/Visual.hh"
 #include <cstdint>
 #include <ncpp/Plane.hh>
+#include <optional>
 #include <span>
 #include <variant>
-#include <vector>
 
 using ChildWidgets =
     std::span<std::variant<const ncpp::Plane, const ncpp::Visual>>;
+
 
 struct Window {
   std::string id;
@@ -16,12 +20,15 @@ struct Window {
   int w;
   uint32_t bg_color;
   uint32_t fg_color;
-  ncpp::Plane plane;
-  std::vector<std::variant<ncpp::Plane, ncpp::Visual>> planes;
+  ncpp::Plane* plane;
+  std::optional<std::string> title;
 };
 
-void new_window(std::string id, int x, int y, int w, int h,
-                ChildWidgets cildren);
 
-void move_winodw(Window window, int x, int y);
-void update_window(Window window);
+
+void set_window_title(Window &window,const std::string& title);
+Window new_window(std::string id, int x, int y, int w, int h, uint32_t bg_color,
+                uint32_t fg_color, ncpp::Plane& stdplane, std::string window_title);
+
+void move_window(Window &window, int x, int y);
+void update_window(Window& window);

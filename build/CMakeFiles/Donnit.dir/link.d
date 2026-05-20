@@ -3,6 +3,7 @@ Donnit: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \
   CMakeFiles/Donnit.dir/src/main.cpp.o \
+  CMakeFiles/Donnit.dir/src/Window.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses-core.so \
@@ -265,6 +266,8 @@ Donnit: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
 
 CMakeFiles/Donnit.dir/src/main.cpp.o:
+
+CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses++.so:
 

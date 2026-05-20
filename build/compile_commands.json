@@ -4,5 +4,11 @@
   "command": "/usr/bin/c++  -I/home/benten/projects/programming/cpp/Donnit/include -I/usr/include/notcurses -I/user/include/fmt -I/home/benten/projects/programming/cpp/Donnit/src -std=gnu++20 -o CMakeFiles/Donnit.dir/src/main.cpp.o -c /home/benten/projects/programming/cpp/Donnit/src/main.cpp",
   "file": "/home/benten/projects/programming/cpp/Donnit/src/main.cpp",
   "output": "CMakeFiles/Donnit.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/benten/projects/programming/cpp/Donnit/build",
+  "command": "/usr/bin/c++  -I/home/benten/projects/programming/cpp/Donnit/include -I/usr/include/notcurses -I/user/include/fmt -I/home/benten/projects/programming/cpp/Donnit/src -std=gnu++20 -o CMakeFiles/Donnit.dir/src/Window.cpp.o -c /home/benten/projects/programming/cpp/Donnit/src/Window.cpp",
+  "file": "/home/benten/projects/programming/cpp/Donnit/src/Window.cpp",
+  "output": "CMakeFiles/Donnit.dir/src/Window.cpp.o"
 }
 ]

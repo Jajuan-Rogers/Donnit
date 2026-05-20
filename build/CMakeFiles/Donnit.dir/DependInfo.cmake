@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/benten/projects/programming/cpp/Donnit/src/Window.cpp" "CMakeFiles/Donnit.dir/src/Window.cpp.o" "gcc" "CMakeFiles/Donnit.dir/src/Window.cpp.o.d"
   "/home/benten/projects/programming/cpp/Donnit/src/main.cpp" "CMakeFiles/Donnit.dir/src/main.cpp.o" "gcc" "CMakeFiles/Donnit.dir/src/main.cpp.o.d"
   "" "Donnit" "gcc" "CMakeFiles/Donnit.dir/link.d"
   )
