@@ -150,28 +150,17 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/stdexcept_except.h \
  /usr/include/c++/16.1.1/system_error \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
- /usr/include/ncpp/NotCurses.hh /usr/include/c++/16.1.1/ctime \
+ /usr/include/ncpp/Cell.hh /usr/include/c++/16.1.1/map \
+ /usr/include/c++/16.1.1/bits/stl_tree.h \
+ /usr/include/c++/16.1.1/ext/aligned_buffer.h \
+ /usr/include/c++/16.1.1/bits/node_handle.h \
+ /usr/include/c++/16.1.1/bits/stl_map.h \
+ /usr/include/c++/16.1.1/bits/stl_multimap.h \
+ /usr/include/c++/16.1.1/mutex /usr/include/c++/16.1.1/bits/chrono.h \
+ /usr/include/c++/16.1.1/ratio /usr/include/c++/16.1.1/ctime \
  /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /usr/include/c++/16.1.1/csignal /usr/include/signal.h \
- /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
- /usr/include/bits/types/sig_atomic_t.h \
- /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
- /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
- /usr/include/bits/siginfo-consts-arch.h \
- /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
- /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
- /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
- /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
- /usr/include/bits/sigstksz.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
- /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
- /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
- /usr/include/bits/signal_ext.h /usr/include/c++/16.1.1/mutex \
- /usr/include/c++/16.1.1/bits/chrono.h /usr/include/c++/16.1.1/ratio \
  /usr/include/c++/16.1.1/bits/parse_numbers.h \
  /usr/include/c++/16.1.1/bits/functexcept.h \
  /usr/include/c++/16.1.1/bits/std_mutex.h \
@@ -191,6 +180,22 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: \
  /usr/include/c++/16.1.1/ext/atomicity.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h /usr/include/notcurses/notcurses.h \
+ /usr/include/signal.h /usr/include/bits/signum-generic.h \
+ /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
+ /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
+ /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
+ /usr/include/bits/signal_ext.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
  /usr/include/notcurses/ncport.h /usr/include/netinet/in.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
@@ -200,17 +205,14 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: \
  /usr/include/asm-generic/sockios.h \
  /usr/include/bits/types/struct_osockaddr.h /usr/include/bits/in.h \
  /usr/include/byteswap.h /usr/include/notcurses/nckeys.h \
- /usr/include/notcurses/ncseqs.h /usr/include/ncpp/CellStyle.hh \
+ /usr/include/notcurses/ncseqs.h /usr/include/ncpp/Root.hh \
+ /usr/include/ncpp/_helpers.hh /usr/include/ncpp/_exceptions.hh \
+ /usr/include/ncpp/CellStyle.hh \
  /usr/include/ncpp/_flag_enum_operator_helpers.hh \
- /usr/include/ncpp/_helpers.hh /usr/include/ncpp/NCKey.hh \
- /usr/include/ncpp/NCLogLevel.hh /usr/include/ncpp/Palette.hh \
- /usr/include/ncpp/Root.hh /usr/include/ncpp/_exceptions.hh \
- /usr/include/ncpp/Plane.hh /usr/include/c++/16.1.1/cstdarg \
- /usr/include/c++/16.1.1/map /usr/include/c++/16.1.1/bits/stl_tree.h \
- /usr/include/c++/16.1.1/ext/aligned_buffer.h \
- /usr/include/c++/16.1.1/bits/node_handle.h \
- /usr/include/c++/16.1.1/bits/stl_map.h \
- /usr/include/c++/16.1.1/bits/stl_multimap.h /usr/include/ncpp/Cell.hh \
+ /usr/include/ncpp/NotCurses.hh /usr/include/c++/16.1.1/csignal \
+ /usr/include/ncpp/NCKey.hh /usr/include/ncpp/NCLogLevel.hh \
+ /usr/include/ncpp/Palette.hh /usr/include/ncpp/Plane.hh \
+ /usr/include/c++/16.1.1/cstdarg /usr/include/ncpp/Cell.hh \
  /usr/include/ncpp/NCAlign.hh /usr/include/ncpp/NCBox.hh \
  /usr/include/ncpp/Plane.hh /usr/include/ncpp/Visual.hh \
  /usr/include/ncpp/Utilities.hh /usr/include/ncpp/NotCurses.hh \

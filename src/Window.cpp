@@ -41,14 +41,15 @@ Window new_window(std::string id, int x, int y, int w, int h, uint32_t bg_color,
 
   Window window = Window{id, x, y, w, h, bg_color, fg_color, plane, title};
   set_window_title(window, title);
-  const char* c = "-";
-  //NOTE: debug code delete l8r
-  fill_window(window, c);
+  // const char* c = " ";
+  //
+  // //NOTE: debug code delete l8r
+  // fill_window(window, c);
   return window;
 }
 
-void move_window(Window &window, int x, int y) {
+void move_window(Window &window, int y, int x) {
   window.x = x;
   window.y = y;
-  window.plane->move(window.x, window.y);
+  window.plane->move(window.y, window.x);
 }

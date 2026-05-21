@@ -30,5 +30,5 @@ void set_window_title(Window &window,const std::string& title);
 Window new_window(std::string id, int x, int y, int w, int h, uint32_t bg_color,
                 uint32_t fg_color, ncpp::Plane& stdplane, std::string window_title);
 
-void move_window(Window &window, int x, int y);
+void move_window(Window &window, int y, int x);
 void update_window(Window& window);
