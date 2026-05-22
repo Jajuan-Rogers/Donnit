@@ -137,7 +137,7 @@ Donnit: \
   /usr/lib32/libva-x11.so.2 \
   /usr/lib/libva-x11.so.2 \
   /usr/lib/libvdpau.so.1 \
-  /opt/cuda/lib64/libOpenCL.so.1 \
+  /usr/lib/libOpenCL.so.1 \
   /usr/lib/libsoxr.so.0 \
   /usr/lib32/libgio-2.0.so.0 \
   /usr/lib/libgio-2.0.so.0 \
@@ -216,10 +216,6 @@ Donnit: \
   /usr/lib/libX11-xcb.so.1 \
   /usr/lib32/libxcb-dri3.so.0 \
   /usr/lib/libxcb-dri3.so.0 \
-  /usr/lib32/libdl.so.2 \
-  /usr/lib/libdl.so.2 \
-  /usr/lib32/libpthread.so.0 \
-  /usr/lib/libpthread.so.0 \
   /usr/lib32/libgomp.so.1 \
   /usr/lib/libgomp.so.1 \
   /usr/lib32/libgmodule-2.0.so.0 \
@@ -535,7 +531,7 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/libvdpau.so.1:
 
-/opt/cuda/lib64/libOpenCL.so.1:
+/usr/lib/libOpenCL.so.1:
 
 /usr/lib/libsoxr.so.0:
 
@@ -692,14 +688,6 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 /usr/lib32/libxcb-dri3.so.0:
 
 /usr/lib/libxcb-dri3.so.0:
-
-/usr/lib32/libdl.so.2:
-
-/usr/lib/libdl.so.2:
-
-/usr/lib32/libpthread.so.0:
-
-/usr/lib/libpthread.so.0:
 
 /usr/lib32/libgomp.so.1:
 

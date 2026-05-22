@@ -23,6 +23,7 @@ struct Widget {
   ncpp::Plane *plane = nullptr;
   ncpp::Plane *stdplane;
 
+
   Widget(ncpp::Plane *stdplane, std::string id, int x, int y, unsigned int w,
          unsigned int h, ncplane_options *popts) {
     ncplane_options local_opts;
@@ -31,12 +32,13 @@ struct Widget {
           .y = y, .x = x, .rows = h, .cols = w, .userptr = nullptr};
       popts = &local_opts;
     }
-    struct ncplane *raw_plane = ncplane_create(*stdplane, popts);
+    struct ncplane *raw_plane = ncpile_create(stdplane->get_notcurses(), popts);
     if (raw_plane == nullptr) {
       std::runtime_error{"failed to make plane for widget"};
     }
     this->plane = new ncpp::Plane(raw_plane);
   }
+
 
   ~Widget() { delete plane; };
 };
