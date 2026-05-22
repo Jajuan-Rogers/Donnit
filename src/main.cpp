@@ -1,3 +1,4 @@
+#include "Widget.hpp"
 #include <fmt/base.h>
 #include <fmt/format.h>
 #include <ncpp/Cell.hh>
@@ -5,7 +6,7 @@
 #include <ncpp/Plane.hh>
 #include <ncpp/Visual.hh>
 #include <ncpp/ncpp.hh>
-#include "Window.hpp"
+#include "nckeys.h"
 #include "notcurses.h"
 
 ncpp::Plane* get_stdplane(ncpp::NotCurses& nc){
@@ -13,29 +14,28 @@ ncpp::Plane* get_stdplane(ncpp::NotCurses& nc){
 }
 
 
+
 int main() {
   notcurses_options opts = {};
   ncpp::NotCurses nc(opts);
   ncpp::Plane* stdplane =  get_stdplane(nc);
 
-  Window myWindow = new_window("my_window", 2, 2, 12, 12,0x2A0081, 0xF5C700, *stdplane, "The Worstie");
+  Widget widget(stdplane,"hello world",10,10,20,20,nullptr);
+  widget.plane->putstr(0,0,"HELLOOO");
   ncinput ncin;
+  nc.mouse_enable(NCMICE_ALL_EVENTS);
 
-  const ncpp::Cell b_cell(0x2A0081);
-  myWindow.plane->perimeter(b_cell,b_cell,b_cell,b_cell,b_cell,b_cell,2);
-  nc.render();
-  const char32_t key = nc.get(true, &ncin);
-
-
-  const char32_t key_2 = nc.get(true, &ncin);
-  move_window(myWindow, 10, 30);
-  nc.render();
-  const char32_t key_3 = nc.get(true, &ncin);
-
-
-
-
-
+  while (true){
+    nc.render();
+    const char32_t key = nc.get(true, &ncin);
+    if (key == NCKEY_ESC){
+      break;
+    }else if (nckey_mouse_p(key)) {
+      widget.plane->putstr(0,0,"A FUCKING MOUSE !");
+    }
+    // const char32_t key = nc.get(true, &ncin);
+    // myWindow.plane->putc(0,0,key);
+  }
 
   return 0;
 }

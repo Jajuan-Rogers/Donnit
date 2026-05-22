@@ -21,6 +21,7 @@ static void fill_window(Window &window, const char *c) {
     };
 }
 
+
 Window new_window(std::string id, int x, int y, int w, int h, uint32_t bg_color,
                   uint32_t fg_color, ncpp::Plane &stdplane, std::string title) {
 
