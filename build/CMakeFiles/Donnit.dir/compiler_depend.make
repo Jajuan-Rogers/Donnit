@@ -129,6 +129,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/bits/waitflags.h \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
+  /usr/include/bits/wctype-wchar.h \
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
   /usr/include/byteswap.h \
@@ -137,6 +138,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bit \
   /usr/include/c++/16.1.1/bits/alloc_traits.h \
   /usr/include/c++/16.1.1/bits/allocator.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.h \
+  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
   /usr/include/c++/16.1.1/bits/basic_string.h \
   /usr/include/c++/16.1.1/bits/basic_string.tcc \
   /usr/include/c++/16.1.1/bits/binders.h \
@@ -158,7 +161,13 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bits/hashtable.h \
   /usr/include/c++/16.1.1/bits/hashtable_policy.h \
   /usr/include/c++/16.1.1/bits/invoke.h \
+  /usr/include/c++/16.1.1/bits/ios_base.h \
+  /usr/include/c++/16.1.1/bits/istream.tcc \
   /usr/include/c++/16.1.1/bits/iterator_concepts.h \
+  /usr/include/c++/16.1.1/bits/locale_classes.h \
+  /usr/include/c++/16.1.1/bits/locale_classes.tcc \
+  /usr/include/c++/16.1.1/bits/locale_facets.h \
+  /usr/include/c++/16.1.1/bits/locale_facets.tcc \
   /usr/include/c++/16.1.1/bits/localefwd.h \
   /usr/include/c++/16.1.1/bits/max_size_type.h \
   /usr/include/c++/16.1.1/bits/memory_resource.h \
@@ -170,7 +179,10 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bits/new_except.h \
   /usr/include/c++/16.1.1/bits/new_throw.h \
   /usr/include/c++/16.1.1/bits/node_handle.h \
+  /usr/include/c++/16.1.1/bits/ostream.h \
+  /usr/include/c++/16.1.1/bits/ostream.tcc \
   /usr/include/c++/16.1.1/bits/ostream_insert.h \
+  /usr/include/c++/16.1.1/bits/ostream_print.h \
   /usr/include/c++/16.1.1/bits/parse_numbers.h \
   /usr/include/c++/16.1.1/bits/postypes.h \
   /usr/include/c++/16.1.1/bits/predefined_ops.h \
@@ -201,6 +213,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/bits/stl_tree.h \
   /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
   /usr/include/c++/16.1.1/bits/stl_vector.h \
+  /usr/include/c++/16.1.1/bits/streambuf.tcc \
+  /usr/include/c++/16.1.1/bits/streambuf_iterator.h \
   /usr/include/c++/16.1.1/bits/string_view.tcc \
   /usr/include/c++/16.1.1/bits/stringfwd.h \
   /usr/include/c++/16.1.1/bits/unique_lock.h \
@@ -225,6 +239,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/cstring \
   /usr/include/c++/16.1.1/ctime \
   /usr/include/c++/16.1.1/cwchar \
+  /usr/include/c++/16.1.1/cwctype \
   /usr/include/c++/16.1.1/debug/assertions.h \
   /usr/include/c++/16.1.1/debug/debug.h \
   /usr/include/c++/16.1.1/exception \
@@ -236,18 +251,23 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/ext/type_traits.h \
   /usr/include/c++/16.1.1/functional \
   /usr/include/c++/16.1.1/initializer_list \
+  /usr/include/c++/16.1.1/ios \
   /usr/include/c++/16.1.1/iosfwd \
+  /usr/include/c++/16.1.1/iostream \
+  /usr/include/c++/16.1.1/istream \
   /usr/include/c++/16.1.1/limits \
   /usr/include/c++/16.1.1/map \
   /usr/include/c++/16.1.1/mutex \
   /usr/include/c++/16.1.1/new \
   /usr/include/c++/16.1.1/numbers \
   /usr/include/c++/16.1.1/optional \
+  /usr/include/c++/16.1.1/ostream \
   /usr/include/c++/16.1.1/pstl/pstl_config.h \
   /usr/include/c++/16.1.1/ratio \
   /usr/include/c++/16.1.1/span \
   /usr/include/c++/16.1.1/stdexcept \
   /usr/include/c++/16.1.1/stdlib.h \
+  /usr/include/c++/16.1.1/streambuf \
   /usr/include/c++/16.1.1/string \
   /usr/include/c++/16.1.1/string_view \
   /usr/include/c++/16.1.1/system_error \
@@ -274,6 +294,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
+  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
   /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/gthr.h \
@@ -336,6 +358,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: /home/benten/projects/programming/cpp/Donn
   /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
+  /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
@@ -595,8 +618,6 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/lib32/libxcb-shape.so.0:
 
-/usr/lib32/libxcb-render.so.0:
-
 /usr/lib32/libxcb-dri3.so.0:
 
 /usr/lib32/libva-x11.so.2:
@@ -631,13 +652,37 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/lib32/libglib-2.0.so.0:
 
-/usr/include/bits/signum-generic.h:
+/usr/lib32/libgio-2.0.so.0:
 
-/usr/include/c++/16.1.1/tr1/riemann_zeta.tcc:
+/usr/lib32/libmount.so.1:
 
-/usr/include/c++/16.1.1/string_view:
+/usr/lib32/libfontconfig.so.1:
 
-/usr/include/c++/16.1.1/numbers:
+/usr/lib32/libdrm.so.2:
+
+/usr/lib32/libdbus-1.so.3:
+
+/usr/lib32/libcrypto.so.3:
+
+/usr/lib32/libbrotlienc.so.1:
+
+/usr/lib32/libblkid.so.1:
+
+/usr/lib32/libasound.so.2:
+
+/usr/lib32/libXext.so.6:
+
+/usr/lib32/libXdmcp.so.6:
+
+/usr/lib32/libX11.so.6:
+
+/usr/lib32/libX11-xcb.so.1:
+
+/usr/lib32/libbz2.so.1.0:
+
+/usr/lib32/libSPIRV-Tools-opt.so:
+
+/usr/lib/pulseaudio/libpulsecommon-17.0.so:
 
 /usr/include/c++/16.1.1/mutex:
 
@@ -649,15 +694,19 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16.1.1/bits/stl_map.h:
 
+/usr/include/c++/16.1.1/iostream:
+
+/usr/include/c++/16.1.1/bits/stl_algobase.h:
+
+/usr/lib/libavfilter.so.11:
+
+/usr/include/math.h:
+
 /usr/include/c++/16.1.1/iosfwd:
 
 /usr/include/c++/16.1.1/bits/functexcept.h:
 
 /usr/include/bits/timex.h:
-
-/usr/include/c++/16.1.1/tr1/bessel_function.tcc:
-
-/usr/lib/libswscale.so.9:
 
 /usr/include/c++/16.1.1/functional:
 
@@ -669,10 +718,6 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/include/ncpp/_flag_enum_operator_helpers.hh:
 
-/usr/include/c++/16.1.1/tr1/modified_bessel_func.tcc:
-
-/usr/include/asm-generic/posix_types.h:
-
 /usr/include/c++/16.1.1/debug/assertions.h:
 
 /usr/include/c++/16.1.1/bits/specfun.h:
@@ -682,8 +727,6 @@ Donnit: /usr/lib/Scrt1.o \
 /usr/include/c++/16.1.1/ctime:
 
 /usr/include/c++/16.1.1/cstdio:
-
-/usr/include/c++/16.1.1/cstddef:
 
 /usr/include/c++/16.1.1/csignal:
 
@@ -703,15 +746,23 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16.1.1/bits/unordered_map.h:
 
-/usr/include/c++/16.1.1/system_error:
-
-/usr/lib/libharfbuzz.so.0:
-
 /usr/include/c++/16.1.1/bits/stringfwd.h:
 
 /usr/include/ncpp/Cell.hh:
 
+/usr/include/c++/16.1.1/cstddef:
+
+/usr/include/c++/16.1.1/bits/streambuf.tcc:
+
 /usr/lib/libglslang.so.16:
+
+/usr/include/c++/16.1.1/ios:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/c++/16.1.1/bits/ranges_util.h:
+
+/usr/lib/libxcb-shape.so.0:
 
 /usr/lib/libfribidi.so.0:
 
@@ -727,19 +778,15 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16.1.1/bits/stl_function.h:
 
-/usr/include/c++/16.1.1/bits/stl_algobase.h:
-
-/usr/lib/libavfilter.so.11:
-
-/usr/include/math.h:
-
-/usr/include/c++/16.1.1/tr1/gamma.tcc:
-
 /usr/include/c++/16.1.1/bits/stdexcept_except.h:
 
 /usr/include/c++/16.1.1/bits/ranges_base.h:
 
 /usr/include/bits/errno.h:
+
+/usr/lib32/libfreetype.so.6:
+
+/usr/include/c++/16.1.1/bits/postypes.h:
 
 /usr/include/c++/16.1.1/bits/memoryfwd.h:
 
@@ -747,11 +794,15 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16.1.1/bits/parse_numbers.h:
 
+/usr/lib32/libbrotlicommon.so.1:
+
+/usr/include/c++/16.1.1/bits/node_handle.h:
+
 /usr/include/c++/16.1.1/new:
 
-/usr/include/stdint.h:
+/usr/include/c++/16.1.1/bits/basic_ios.h:
 
-/usr/include/c++/16.1.1/tr1/beta_function.tcc:
+/usr/include/stdint.h:
 
 /usr/include/c++/16.1.1/bits/monostate.h:
 
@@ -759,7 +810,15 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16.1.1/bits/max_size_type.h:
 
+/usr/lib32/libxcb-render.so.0:
+
+/usr/include/c++/16.1.1/bits/locale_facets.h:
+
 /usr/include/c++/16.1.1/bits/iterator_concepts.h:
+
+/usr/include/c++/16.1.1/bits/ios_base.h:
+
+/usr/include/c++/16.1.1/numbers:
 
 /usr/include/c++/16.1.1/bits/invoke.h:
 
@@ -782,6 +841,12 @@ Donnit: /usr/lib/Scrt1.o \
 /usr/lib/libjxl.so.0.11:
 
 /usr/include/c++/16.1.1/bits/enable_special_members.h:
+
+/usr/include/c++/16.1.1/istream:
+
+/usr/lib/libc_nonshared.a:
+
+/usr/lib/libfontconfig.so.1:
 
 /usr/include/bits/locale.h:
 
@@ -807,8 +872,6 @@ Donnit: /usr/lib/Scrt1.o \
 
 /usr/include/c++/16.1.1/bits/basic_string.tcc:
 
-/usr/include/c++/16.1.1/pstl/pstl_config.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h:
 
 /usr/include/c++/16.1.1/bits/basic_string.h:
@@ -828,8 +891,6 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 /usr/lib/libswresample.so.6:
 
 /usr/include/c++/16.1.1/bit:
-
-/usr/include/c++/16.1.1/tr1/hypergeometric.tcc:
 
 /usr/lib/libraw1394.so.11:
 
@@ -855,15 +916,9 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/libtheoraenc.so.2:
 
-/usr/lib32/libmount.so.1:
-
-/usr/lib32/libfontconfig.so.1:
-
 /usr/include/bits/stdint-uintn.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/16.1.1/tr1/legendre_function.tcc:
 
 /usr/include/bits/pthreadtypes.h:
 
@@ -881,6 +936,8 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/include/sched.h:
 
+/usr/include/wctype.h:
+
 /usr/lib/libiec61883.so.0:
 
 /usr/include/bits/mathcalls-narrow.h:
@@ -893,13 +950,7 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/include/bits/types/timer_t.h:
 
-/usr/lib32/libblkid.so.1:
-
 /usr/include/bits/types/time_t.h:
-
-/usr/include/c++/16.1.1/stdlib.h:
-
-/usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/siginfo-consts.h:
 
@@ -927,15 +978,23 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/bits/types/struct_sched_param.h:
 
+/usr/include/c++/16.1.1/bits/ostream_print.h:
+
+/usr/include/c++/16.1.1/bits/locale_classes.tcc:
+
+/usr/include/c++/16.1.1/bits/nested_exception.h:
+
+/usr/lib/libm.so:
+
+/usr/lib/libx265.so.215:
+
 /usr/include/c++/16.1.1/clocale:
 
 /usr/include/bits/getopt_posix.h:
 
 /usr/include/errno.h:
 
-/usr/include/c++/16.1.1/bits/postypes.h:
-
-/usr/lib32/libfreetype.so.6:
+/usr/include/c++/16.1.1/ostream:
 
 /home/benten/projects/programming/cpp/Donnit/src/Window.cpp:
 
@@ -983,6 +1042,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/bits/types/clockid_t.h:
 
+/usr/include/bits/wctype-wchar.h:
+
 /usr/include/bits/stdint-intn.h:
 
 /usr/lib/libpulse.so.0:
@@ -991,6 +1052,10 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/sys/ucontext.h:
 
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/c++/16.1.1/tr1/modified_bessel_func.tcc:
+
 /usr/include/c++/16.1.1/bits/new_allocator.h:
 
 /usr/include/ctype.h:
@@ -998,6 +1063,10 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/include/c++/16.1.1/tuple:
+
+/usr/include/c++/16.1.1/tr1/legendre_function.tcc:
+
+/usr/include/c++/16.1.1/tr1/hypergeometric.tcc:
 
 /usr/include/bits/ss_flags.h:
 
@@ -1015,8 +1084,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/bits/types/struct_osockaddr.h:
 
-/usr/include/c++/16.1.1/ratio:
-
 /usr/include/notcurses/nckeys.h:
 
 /usr/include/sys/single_threaded.h:
@@ -1026,6 +1093,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /home/benten/projects/programming/cpp/Donnit/include/Window.hpp:
 
 /usr/lib/librav1e.so.0.8:
+
+/usr/include/asm-generic/sockios.h:
 
 /usr/include/bits/uio_lim.h:
 
@@ -1044,8 +1113,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/include/asm-generic/errno-base.h:
 
 /usr/include/c++/16.1.1/bits/uses_allocator_args.h:
-
-/usr/lib32/libasound.so.2:
 
 /usr/lib/libc.so:
 
@@ -1077,21 +1144,13 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/asm-generic/int-ll64.h:
 
-/usr/include/c++/16.1.1/bits/node_handle.h:
-
-/usr/lib32/libbrotlicommon.so.1:
-
 /usr/include/bits/types/__FILE.h:
 
 /usr/include/features.h:
 
-/usr/include/asm/sockios.h:
-
-/usr/include/c++/16.1.1/bits/ranges_util.h:
-
-/usr/lib/libxcb-shape.so.0:
-
 /usr/lib32/libvulkan.so.1:
+
+/usr/include/c++/16.1.1/bits/ostream.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
 
@@ -1133,9 +1192,9 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/byteswap.h:
 
-/usr/lib32/libbrotlienc.so.1:
-
 /usr/include/ncpp/NotCurses.hh:
+
+/usr/include/c++/16.1.1/bits/locale_facets.tcc:
 
 /usr/include/c++/16.1.1/bits/stl_construct.h:
 
@@ -1152,6 +1211,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/lib32/libXau.so.6:
 
 /usr/lib/liblcms2.so.2:
+
+/usr/include/c++/16.1.1/bits/streambuf_iterator.h:
 
 /usr/include/bits/types/struct_timespec.h:
 
@@ -1181,9 +1242,13 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/bits/types/stack_t.h:
 
-/usr/lib32/libSPIRV-Tools-opt.so:
+/usr/include/bits/signum-generic.h:
 
-/usr/lib32/libbz2.so.1.0:
+/usr/lib/libswscale.so.9:
+
+/usr/include/c++/16.1.1/tr1/bessel_function.tcc:
+
+/usr/include/c++/16.1.1/tr1/riemann_zeta.tcc:
 
 /usr/include/alloca.h:
 
@@ -1221,6 +1286,8 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/c++/16.1.1/bits/range_access.h:
 
+/usr/include/c++/16.1.1/bits/istream.tcc:
+
 /usr/include/bits/struct_mutex.h:
 
 /usr/include/bits/thread-shared-types.h:
@@ -1253,9 +1320,17 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/bits/types/__locale_t.h:
 
+/usr/include/c++/16.1.1/bits/locale_classes.h:
+
+/usr/include/c++/16.1.1/bits/hash_bytes.h:
+
+/usr/include/bits/types/struct_tm.h:
+
 /usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/types/clock_t.h:
+
+/usr/include/c++/16.1.1/cwctype:
 
 /usr/include/ncpp/NCBox.hh:
 
@@ -1267,23 +1342,17 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/include/bits/types/sigevent_t.h:
 
-/usr/include/c++/16.1.1/tr1/ell_integral.tcc:
-
 /usr/include/c++/16.1.1/bits/ranges_cmp.h:
 
-/usr/include/asm-generic/sockios.h:
-
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/c++/16.1.1/bits/ostream.tcc:
 
 /usr/include/bits/sched.h:
 
 /usr/include/bits/struct_rwlock.h:
 
 /usr/include/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/16.1.1/bits/hash_bytes.h:
-
-/usr/include/bits/types/struct_tm.h:
 
 /usr/include/bits/sigcontext.h:
 
@@ -1298,6 +1367,28 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/include/bits/timesize.h:
 
 /usr/lib/libdeflate.so.0:
+
+/usr/include/c++/16.1.1/pstl/pstl_config.h:
+
+/usr/include/c++/16.1.1/ratio:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/c++/16.1.1/stdlib.h:
+
+/usr/include/c++/16.1.1/streambuf:
+
+/usr/include/c++/16.1.1/string_view:
+
+/usr/lib/libharfbuzz.so.0:
+
+/usr/include/c++/16.1.1/system_error:
+
+/usr/include/c++/16.1.1/tr1/beta_function.tcc:
+
+/usr/include/c++/16.1.1/tr1/ell_integral.tcc:
+
+/usr/include/c++/16.1.1/tr1/gamma.tcc:
 
 /usr/include/bits/pthreadtypes-arch.h:
 
@@ -1318,6 +1409,12 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
 
 /usr/lib/libdatrie.so.1:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_base.h:
+
+/usr/lib/libgmodule-2.0.so.0:
+
+/usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
 /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
@@ -1437,13 +1534,11 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/syslimits.h:
 
-/usr/lib32/libgio-2.0.so.0:
-
 /usr/lib/Scrt1.o:
 
-/usr/include/c++/16.1.1/tr1/exp_integral.tcc:
-
 /usr/include/c++/16.1.1/tr1/special_function_util.h:
+
+/usr/include/c++/16.1.1/tr1/exp_integral.tcc:
 
 /usr/lib/libmodplug.so.1:
 
@@ -1459,12 +1554,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/lib/libgcc_s.so.1:
 
-/usr/include/c++/16.1.1/bits/nested_exception.h:
-
-/usr/lib/libm.so:
-
-/usr/lib/libx265.so.215:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a:
 
 /usr/lib/libtasn1.so.6:
@@ -1476,8 +1565,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/lib/libSPIRV-Tools-opt.so:
 
 /usr/lib/libxcb-render.so.0:
-
-/usr/lib/pulseaudio/libpulsecommon-17.0.so:
 
 /usr/include/bits/sockaddr.h:
 
@@ -1517,10 +1604,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/lib/libbz2.so.1.0:
 
-/usr/lib/libc_nonshared.a:
-
-/usr/lib/libfontconfig.so.1:
-
 /usr/lib/libcairo.so.2:
 
 /usr/lib/libcrypto.so.3:
@@ -1557,8 +1640,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/lib/libglslang-default-resource-limits.so.16:
 
-/usr/lib/libgmodule-2.0.so.0:
-
 /usr/lib/libgmp.so.10:
 
 /usr/lib/libunwind.so.8:
@@ -1566,8 +1647,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/include/bits/types/struct_iovec.h:
 
 /usr/lib/libgobject-2.0.so.0:
-
-/usr/lib32/libXext.so.6:
 
 /usr/lib/libpipewire-0.3.so.0:
 
@@ -1598,8 +1677,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/lib/libicudata.so.78:
 
 /usr/lib/libmd.so.0:
-
-/usr/lib32/libcrypto.so.3:
 
 /usr/lib/libmount.so.1:
 
@@ -1673,8 +1750,6 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/lib/libshaderc_shared.so.1:
 
-/usr/lib32/libXdmcp.so.6:
-
 /usr/lib/libsharpyuv.so.0:
 
 /usr/include/bits/siginfo-arch.h:
@@ -1691,13 +1766,13 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 
 /usr/lib/libthai.so.0:
 
-/usr/lib32/libdbus-1.so.3:
-
 /usr/lib/libtheoradec.so.2:
 
 /usr/lib/libva-x11.so.2:
 
 /usr/lib/libvdpau.so.1:
+
+/usr/include/c++/16.1.1/bits/basic_ios.tcc:
 
 /usr/include/bits/cpu-set.h:
 
@@ -1730,9 +1805,3 @@ CMakeFiles/Donnit.dir/src/main.cpp.o:
 /usr/include/sys/cdefs.h:
 
 /usr/lib/libzstd.so.1:
-
-/usr/lib32/libX11-xcb.so.1:
-
-/usr/lib32/libX11.so.6:
-
-/usr/lib32/libdrm.so.2:

@@ -6,7 +6,7 @@
 
 struct Textbox : Widget {
   std::string text;
-  ncpp::Plane* textbox_plane = nullptr;
+  ncpp::Plane* plane = nullptr;
   int x;
   int y;
   unsigned int w = 4;
@@ -21,24 +21,20 @@ struct Textbox : Widget {
       const std::string& id,
       std::string button_text,
       unsigned int width = 14,
-      unsigned int height = 7,
-      uint32_t bg_color = 0x000000,
-      uint32_t fg_color = 0x00A83E)
+      unsigned int height = 7)
       : Widget(parent_pile, id, y, x, width, height) {
-    this->fg_color = fg_color;
-    this->bg_color = bg_color;
     this->x = x;
     this->y = y;
     this->h = height;
     this->w = width;
     this->text = button_text;
     ncplane_options local_opts = {.y = y, .x = x, .rows = h, .cols = w, .userptr = nullptr};
-    textbox_plane = new ncpp::Plane(parent_pile, local_opts);
-    textbox_plane->set_fg_rgb(fg_color);
-    textbox_plane->set_bg_rgb(bg_color);
+    plane = new ncpp::Plane(parent_pile, local_opts);
+    plane->set_fg_rgb(fg_color);
+    plane->set_bg_rgb(bg_color);
   }
 
-  ~Textbox() { delete textbox_plane; }
+  ~Textbox() { delete plane; }
 };
 
 void set_test(Widget& widget, std::string_view text);

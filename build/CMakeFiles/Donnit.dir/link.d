@@ -7,7 +7,26 @@ Donnit: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses-core.so \
+  3rd_party/matplot++/source/matplot/libmatplot.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libfmt.so \
+  /usr/lib/libjpeg.so \
+  /usr/lib/libtiff.so.6.2.0 \
+  /usr/lib/libz.so \
+  /usr/lib/libpng.so \
+  /usr/lib/libz.so \
+  /usr/lib/libpng.so \
+  /usr/lib/liblapack.so \
+  /usr/lib/libblas.so \
+  /usr/lib/libfftw3.so \
+  /usr/lib/libfftw3f.so \
+  /usr/lib/libfftw3l.so \
+  /usr/lib/libfftw3_threads.so \
+  /usr/lib/libfftw3f_threads.so \
+  /usr/lib/libfftw3l_threads.so \
+  /usr/lib/libfftw3_omp.so \
+  /usr/lib/libfftw3f_omp.so \
+  /usr/lib/libfftw3l_omp.so \
+  3rd_party/matplot++/source/3rd_party/libnodesoup.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
@@ -50,12 +69,20 @@ Donnit: \
   /usr/lib/libgpm.so.2 \
   /usr/lib/libdeflate.so.0 \
   /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib/libjbig.so.2.1 \
+  /usr/lib32/liblzma.so.5 \
+  /usr/lib/liblzma.so.5 \
+  /usr/lib32/libzstd.so.1 \
+  /usr/lib/libzstd.so.1 \
+  /usr/lib/libwebp.so.7 \
+  /usr/lib32/libgfortran.so.5 \
+  /usr/lib/libgfortran.so.5 \
+  /usr/lib32/libgomp.so.1 \
+  /usr/lib/libgomp.so.1 \
   /usr/lib/libswresample.so.6 \
   /usr/lib/libvpx.so.12 \
   /usr/lib/libwebpmux.so.3 \
   /usr/lib/liblcms2.so.2 \
-  /usr/lib32/liblzma.so.5 \
-  /usr/lib/liblzma.so.5 \
   /usr/lib/libdav1d.so.7 \
   /usr/lib/libopencore-amrwb.so.0 \
   /usr/lib/librsvg-2.so.2 \
@@ -80,12 +107,9 @@ Donnit: \
   /usr/lib/libtheoradec.so.2 \
   /usr/lib/libvorbis.so.0 \
   /usr/lib/libvorbisenc.so.2 \
-  /usr/lib/libwebp.so.7 \
   /usr/lib/libx264.so.165 \
   /usr/lib/libx265.so.215 \
   /usr/lib/libxvidcore.so.4 \
-  /usr/lib32/libz.so.1 \
-  /usr/lib/libz.so.1 \
   /usr/lib32/libva.so.2 \
   /usr/lib/libva.so.2 \
   /usr/lib/libvpl.so.2 \
@@ -138,14 +162,13 @@ Donnit: \
   /usr/lib/libva-x11.so.2 \
   /usr/lib/libvdpau.so.1 \
   /usr/lib/libOpenCL.so.1 \
+  /usr/lib/libsharpyuv.so.0 \
   /usr/lib/libsoxr.so.0 \
   /usr/lib32/libgio-2.0.so.0 \
   /usr/lib/libgio-2.0.so.0 \
   /usr/lib/libgdk_pixbuf-2.0.so.0 \
   /usr/lib/libpangocairo-1.0.so.0 \
   /usr/lib/libpango-1.0.so.0 \
-  /usr/lib32/libpng16.so.16 \
-  /usr/lib/libpng16.so.16 \
   /usr/lib32/libfontconfig.so.1 \
   /usr/lib/libfontconfig.so.1 \
   /usr/lib32/libfreetype.so.6 \
@@ -166,7 +189,6 @@ Donnit: \
   /usr/lib/libbrotlienc.so.1 \
   /usr/lib/libmpg123.so.0 \
   /usr/lib/libogg.so.0 \
-  /usr/lib/libsharpyuv.so.0 \
   /usr/lib/libmvec.so.1 \
   /usr/lib/libbs2b.so.0 \
   /usr/lib/librubberband.so.3 \
@@ -216,8 +238,6 @@ Donnit: \
   /usr/lib/libX11-xcb.so.1 \
   /usr/lib32/libxcb-dri3.so.0 \
   /usr/lib/libxcb-dri3.so.0 \
-  /usr/lib32/libgomp.so.1 \
-  /usr/lib/libgomp.so.1 \
   /usr/lib32/libgmodule-2.0.so.0 \
   /usr/lib/libgmodule-2.0.so.0 \
   /usr/lib32/libmount.so.1 \
@@ -229,7 +249,6 @@ Donnit: \
   /usr/lib/libexpat.so.1 \
   /usr/lib32/libbrotlicommon.so.1 \
   /usr/lib/libbrotlicommon.so.1 \
-  /usr/lib/libfftw3.so.3 \
   /usr/lib/libsamplerate.so.0 \
   /usr/lib/libgraphite2.so.3 \
   /usr/lib/libunwind.so.8 \
@@ -244,11 +263,8 @@ Donnit: \
   /usr/lib/libsystemd.so.0 \
   /usr/lib/libasyncns.so.0 \
   /usr/lib/libmd.so.0 \
-  /usr/lib/libjpeg.so.8 \
   /usr/lib32/libicudata.so.78 \
   /usr/lib/libicudata.so.78 \
-  /usr/lib32/libzstd.so.1 \
-  /usr/lib/libzstd.so.1 \
   /usr/lib32/libblkid.so.1 \
   /usr/lib/libblkid.so.1 \
   /usr/lib/libseccomp.so.2 \
@@ -271,7 +287,45 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libnotcurses-core.so:
 
+3rd_party/matplot++/source/matplot/libmatplot.a:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libfmt.so:
+
+/usr/lib/libjpeg.so:
+
+/usr/lib/libtiff.so.6.2.0:
+
+/usr/lib/libz.so:
+
+/usr/lib/libpng.so:
+
+/usr/lib/libz.so:
+
+/usr/lib/libpng.so:
+
+/usr/lib/liblapack.so:
+
+/usr/lib/libblas.so:
+
+/usr/lib/libfftw3.so:
+
+/usr/lib/libfftw3f.so:
+
+/usr/lib/libfftw3l.so:
+
+/usr/lib/libfftw3_threads.so:
+
+/usr/lib/libfftw3f_threads.so:
+
+/usr/lib/libfftw3l_threads.so:
+
+/usr/lib/libfftw3_omp.so:
+
+/usr/lib/libfftw3f_omp.so:
+
+/usr/lib/libfftw3l_omp.so:
+
+3rd_party/matplot++/source/3rd_party/libnodesoup.a:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libstdc++.so:
 
@@ -357,6 +411,26 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
+/usr/lib/libjbig.so.2.1:
+
+/usr/lib32/liblzma.so.5:
+
+/usr/lib/liblzma.so.5:
+
+/usr/lib32/libzstd.so.1:
+
+/usr/lib/libzstd.so.1:
+
+/usr/lib/libwebp.so.7:
+
+/usr/lib32/libgfortran.so.5:
+
+/usr/lib/libgfortran.so.5:
+
+/usr/lib32/libgomp.so.1:
+
+/usr/lib/libgomp.so.1:
+
 /usr/lib/libswresample.so.6:
 
 /usr/lib/libvpx.so.12:
@@ -364,10 +438,6 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 /usr/lib/libwebpmux.so.3:
 
 /usr/lib/liblcms2.so.2:
-
-/usr/lib32/liblzma.so.5:
-
-/usr/lib/liblzma.so.5:
 
 /usr/lib/libdav1d.so.7:
 
@@ -417,17 +487,11 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/libvorbisenc.so.2:
 
-/usr/lib/libwebp.so.7:
-
 /usr/lib/libx264.so.165:
 
 /usr/lib/libx265.so.215:
 
 /usr/lib/libxvidcore.so.4:
-
-/usr/lib32/libz.so.1:
-
-/usr/lib/libz.so.1:
 
 /usr/lib32/libva.so.2:
 
@@ -533,6 +597,8 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/libOpenCL.so.1:
 
+/usr/lib/libsharpyuv.so.0:
+
 /usr/lib/libsoxr.so.0:
 
 /usr/lib32/libgio-2.0.so.0:
@@ -544,10 +610,6 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 /usr/lib/libpangocairo-1.0.so.0:
 
 /usr/lib/libpango-1.0.so.0:
-
-/usr/lib32/libpng16.so.16:
-
-/usr/lib/libpng16.so.16:
 
 /usr/lib32/libfontconfig.so.1:
 
@@ -588,8 +650,6 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 /usr/lib/libmpg123.so.0:
 
 /usr/lib/libogg.so.0:
-
-/usr/lib/libsharpyuv.so.0:
 
 /usr/lib/libmvec.so.1:
 
@@ -689,10 +749,6 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/libxcb-dri3.so.0:
 
-/usr/lib32/libgomp.so.1:
-
-/usr/lib/libgomp.so.1:
-
 /usr/lib32/libgmodule-2.0.so.0:
 
 /usr/lib/libgmodule-2.0.so.0:
@@ -714,8 +770,6 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 /usr/lib32/libbrotlicommon.so.1:
 
 /usr/lib/libbrotlicommon.so.1:
-
-/usr/lib/libfftw3.so.3:
 
 /usr/lib/libsamplerate.so.0:
 
@@ -745,15 +799,9 @@ CMakeFiles/Donnit.dir/src/Window.cpp.o:
 
 /usr/lib/libmd.so.0:
 
-/usr/lib/libjpeg.so.8:
-
 /usr/lib32/libicudata.so.78:
 
 /usr/lib/libicudata.so.78:
-
-/usr/lib32/libzstd.so.1:
-
-/usr/lib/libzstd.so.1:
 
 /usr/lib32/libblkid.so.1:
 

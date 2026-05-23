@@ -10,6 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(${PROJECT_NAME} src/main.cpp src/Window.cpp) 
 
 # 6. Point to your header files
+add_subdirectory(3rd_party/matplot++)
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include
   /usr/include 
   /usr/include/notcurses
@@ -22,5 +23,6 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     notcurses++ 
     notcurses 
     notcurses-core
+    matplot
     fmt
 )

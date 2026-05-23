@@ -14,6 +14,84 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a library.
+BLAS_Accelerate_LIBRARY:FILEPATH=BLAS_Accelerate_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_acml_LIBRARY:FILEPATH=BLAS_acml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_acml_mp_LIBRARY:FILEPATH=BLAS_acml_mp_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_armpl_lp64_LIBRARY:FILEPATH=BLAS_armpl_lp64_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_blas_LIBRARY:FILEPATH=/usr/lib/libblas.so
+
+//Path to a library.
+BLAS_blis_LIBRARY:FILEPATH=BLAS_blis_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_complib_sgimath_LIBRARY:FILEPATH=BLAS_complib_sgimath_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_cxml_LIBRARY:FILEPATH=BLAS_cxml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_dxml_LIBRARY:FILEPATH=BLAS_dxml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_eml_LIBRARY:FILEPATH=BLAS_eml_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_essl_LIBRARY:FILEPATH=BLAS_essl_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_f77blas_LIBRARY:FILEPATH=BLAS_f77blas_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_fjlapack_LIBRARY:FILEPATH=BLAS_fjlapack_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_flexiblas_LIBRARY:FILEPATH=BLAS_flexiblas_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_goto2_LIBRARY:FILEPATH=BLAS_goto2_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_LIBRARY:FILEPATH=BLAS_mkl_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_em64t_LIBRARY:FILEPATH=BLAS_mkl_em64t_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_ia32_LIBRARY:FILEPATH=BLAS_mkl_ia32_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_intel_LIBRARY:FILEPATH=BLAS_mkl_intel_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_intel_lp64_LIBRARY:FILEPATH=BLAS_mkl_intel_lp64_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_mkl_rt_LIBRARY:FILEPATH=BLAS_mkl_rt_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_openblas_LIBRARY:FILEPATH=BLAS_openblas_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_scs_LIBRARY:FILEPATH=BLAS_scs_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_sgemm_LIBRARY:FILEPATH=BLAS_sgemm_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_sunperf_LIBRARY:FILEPATH=BLAS_sunperf_LIBRARY-NOTFOUND
+
+//Path to a library.
+BLAS_vecLib_LIBRARY:FILEPATH=BLAS_vecLib_LIBRARY-NOTFOUND
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -53,6 +131,32 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+
+//A wrapper around 'ar' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+
+//A wrapper around 'ranlib' adding the appropriate '--plugin' option
+// for the GCC compiler
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+
+//Flags used by the C compiler during all build types.
+CMAKE_C_FLAGS:STRING=
+
+//Flags used by the C compiler during DEBUG builds.
+CMAKE_C_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the C compiler during MINSIZEREL builds.
+CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+//Flags used by the C compiler during RELEASE builds.
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Flags used by the C compiler during RELWITHDEBINFO builds.
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
@@ -77,8 +181,56 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/home/benten/projects/programming/cpp/Donnit/build/CMakeFiles/pkgRedirects
 
+//User executables (bin)
+CMAKE_INSTALL_BINDIR:PATH=bin
+
+//Read-only architecture-independent data (DATAROOTDIR)
+CMAKE_INSTALL_DATADIR:PATH=
+
+//Read-only architecture-independent data root (share)
+CMAKE_INSTALL_DATAROOTDIR:PATH=share
+
+//Documentation root (DATAROOTDIR/doc/PROJECT_NAME)
+CMAKE_INSTALL_DOCDIR:PATH=
+
+//C header files (include)
+CMAKE_INSTALL_INCLUDEDIR:PATH=include
+
+//Info documentation (DATAROOTDIR/info)
+CMAKE_INSTALL_INFODIR:PATH=
+
+//Object code libraries (lib)
+CMAKE_INSTALL_LIBDIR:PATH=lib
+
+//Program executables (libexec)
+CMAKE_INSTALL_LIBEXECDIR:PATH=libexec
+
+//Locale-dependent data (DATAROOTDIR/locale)
+CMAKE_INSTALL_LOCALEDIR:PATH=
+
+//Modifiable single-machine data (var)
+CMAKE_INSTALL_LOCALSTATEDIR:PATH=var
+
+//Man documentation (DATAROOTDIR/man)
+CMAKE_INSTALL_MANDIR:PATH=
+
+//C header files for non-gcc (/usr/include)
+CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
+
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
+
+//Run-time variable data (LOCALSTATEDIR/run)
+CMAKE_INSTALL_RUNSTATEDIR:PATH=
+
+//System admin executables (sbin)
+CMAKE_INSTALL_SBINDIR:PATH=sbin
+
+//Modifiable architecture-independent data (com)
+CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
+
+//Read-only single-machine data (etc)
+CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
@@ -219,11 +371,249 @@ Donnit_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Donnit_SOURCE_DIR:STATIC=/home/benten/projects/programming/cpp/Donnit
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=/home/benten/projects/programming/cpp/Donnit/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Path to a library.
+FFTW_DOUBLE_LIB:FILEPATH=/usr/lib/libfftw3.so
+
+//Path to a library.
+FFTW_DOUBLE_OPENMP_LIB:FILEPATH=/usr/lib/libfftw3_omp.so
+
+//Path to a library.
+FFTW_DOUBLE_THREADS_LIB:FILEPATH=/usr/lib/libfftw3_threads.so
+
+//Path to a library.
+FFTW_FLOAT_LIB:FILEPATH=/usr/lib/libfftw3f.so
+
+//Path to a library.
+FFTW_FLOAT_OPENMP_LIB:FILEPATH=/usr/lib/libfftw3f_omp.so
+
+//Path to a library.
+FFTW_FLOAT_THREADS_LIB:FILEPATH=/usr/lib/libfftw3f_threads.so
+
+//Path to a file.
+FFTW_INCLUDE_DIRS:PATH=/usr/include
+
+//Path to a library.
+FFTW_LONGDOUBLE_LIB:FILEPATH=/usr/lib/libfftw3l.so
+
+//Path to a library.
+FFTW_LONGDOUBLE_OPENMP_LIB:FILEPATH=/usr/lib/libfftw3l_omp.so
+
+//Path to a library.
+FFTW_LONGDOUBLE_THREADS_LIB:FILEPATH=/usr/lib/libfftw3l_threads.so
+
+//Path to a file.
+JPEG_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+JPEG_LIBRARY_DEBUG:FILEPATH=JPEG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+JPEG_LIBRARY_RELEASE:FILEPATH=/usr/lib/libjpeg.so
+
+//Path to a library.
+LAPACK_Accelerate_LIBRARY:FILEPATH=LAPACK_Accelerate_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_armpl_lp64_LIBRARY:FILEPATH=LAPACK_armpl_lp64_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_flame_LIBRARY:FILEPATH=LAPACK_flame_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_flexiblas_LIBRARY:FILEPATH=LAPACK_flexiblas_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_goto2_LIBRARY:FILEPATH=LAPACK_goto2_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_lapack_LIBRARY:FILEPATH=/usr/lib/liblapack.so
+
+//Path to a library.
+LAPACK_mkl_lapack_LIBRARY:FILEPATH=LAPACK_mkl_lapack_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_openblas_LIBRARY:FILEPATH=LAPACK_openblas_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_scs_LIBRARY:FILEPATH=LAPACK_scs_LIBRARY-NOTFOUND
+
+//Path to a library.
+LAPACK_vecLib_LIBRARY:FILEPATH=LAPACK_vecLib_LIBRARY-NOTFOUND
+
+//Build examples
+MATPLOTPP_BUILD_EXAMPLES:BOOL=OFF
+
+//Compile target with the experimental OpenGL backend
+MATPLOTPP_BUILD_EXPERIMENTAL_OPENGL_BACKEND:BOOL=OFF
+
+//Bypass show() commands and save figures as .svg at destruction
+MATPLOTPP_BUILD_FOR_DOCUMENTATION_IMAGES:BOOL=OFF
+
+//Compile the high resolution maps for geoplots
+MATPLOTPP_BUILD_HIGH_RESOLUTION_WORLD_MAP:BOOL=ON
+
+//Build installer target
+MATPLOTPP_BUILD_INSTALLER:BOOL=OFF
+
+//Build package
+MATPLOTPP_BUILD_PACKAGE:BOOL=OFF
+
+//Build shared libraries
+MATPLOTPP_BUILD_SHARED_LIBS:BOOL=OFF
+
+//Build tests
+MATPLOTPP_BUILD_TESTS:BOOL=OFF
+
+//Add compiler flags to use exceptions.
+MATPLOTPP_BUILD_WITH_EXCEPTIONS:BOOL=ON
+
+//Accept utf-8 in MSVC by default.
+MATPLOTPP_BUILD_WITH_MSVC_HACKS:BOOL=ON
+
+//Use pedantic warnings. This is useful for developers because
+// many of these warnings will be in continuous integration anyway.
+MATPLOTPP_BUILD_WITH_PEDANTIC_WARNINGS:BOOL=OFF
+
+//Use pedantic warnings.
+MATPLOTPP_BUILD_WITH_SANITIZERS:BOOL=OFF
+
+//Accept utf-8 in MSVC by default.
+MATPLOTPP_BUILD_WITH_UTF8:BOOL=ON
+
+//Use OpenCV in CImg
+MATPLOTPP_WITH_OPENCV:BOOL=ON
+
+//Use system-provided CImg.h instead of bundled
+MATPLOTPP_WITH_SYSTEM_CIMG:BOOL=OFF
+
+//Use system-provided nodesoup instead of bundled
+MATPLOTPP_WITH_SYSTEM_NODESOUP:BOOL=OFF
+
+//Show gnuplot commands used for drawing
+MATPLOT_TRACE_GNUPLOT_COMMANDS:BOOL=OFF
+
+//Value Computed by CMake
+Matplot++_BINARY_DIR:STATIC=/home/benten/projects/programming/cpp/Donnit/build/3rd_party/matplot++
+
+//Value Computed by CMake
+Matplot++_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Matplot++_SOURCE_DIR:STATIC=/home/benten/projects/programming/cpp/Donnit/3rd_party/matplot++
+
+OPENCV_FOUND:BOOL=FALSE
+
+OpenCV_CONFIG_PATH:FILEPATH=/home/benten/projects/programming/cpp/Donnit/3rd_party/matplot++/cmake
+
+OpenCV_FOUND:BOOL=FALSE
+
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
+//Path to a library.
+PNG_LIBRARY_DEBUG:FILEPATH=PNG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+PNG_LIBRARY_RELEASE:FILEPATH=/usr/lib/libpng.so
+
+//Path to a file.
+PNG_PNG_INCLUDE_DIR:PATH=/usr/include
+
+//The directory containing a CMake configuration file for Tiff.
+Tiff_DIR:PATH=/usr/lib/cmake/tiff
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=/usr/lib/libz.so
+
+//The directory containing a CMake configuration file for nvpl.
+nvpl_DIR:PATH=nvpl_DIR-NOTFOUND
+
+//Path to a library.
+pkgcfg_lib_PKG_FFTW_fftw3:FILEPATH=/usr/lib/libfftw3.so
+
 
 ########################
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: BLAS_Accelerate_LIBRARY
+BLAS_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
+//Have function sgemm_
+BLAS_WORKS:INTERNAL=
+//ADVANCED property for variable: BLAS_acml_LIBRARY
+BLAS_acml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_acml_mp_LIBRARY
+BLAS_acml_mp_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_armpl_lp64_LIBRARY
+BLAS_armpl_lp64_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_blas_LIBRARY
+BLAS_blas_LIBRARY-ADVANCED:INTERNAL=1
+//Have function sgemm_
+BLAS_blas_WORKS:INTERNAL=1
+//ADVANCED property for variable: BLAS_blis_LIBRARY
+BLAS_blis_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_complib_sgimath_LIBRARY
+BLAS_complib_sgimath_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_cxml_LIBRARY
+BLAS_cxml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_dxml_LIBRARY
+BLAS_dxml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_eml_LIBRARY
+BLAS_eml_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_essl_LIBRARY
+BLAS_essl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_f77blas_LIBRARY
+BLAS_f77blas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_fjlapack_LIBRARY
+BLAS_fjlapack_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_flexiblas_LIBRARY
+BLAS_flexiblas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_goto2_LIBRARY
+BLAS_goto2_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_LIBRARY
+BLAS_mkl_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_em64t_LIBRARY
+BLAS_mkl_em64t_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_ia32_LIBRARY
+BLAS_mkl_ia32_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_intel_LIBRARY
+BLAS_mkl_intel_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_intel_lp64_LIBRARY
+BLAS_mkl_intel_lp64_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_mkl_rt_LIBRARY
+BLAS_mkl_rt_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_openblas_LIBRARY
+BLAS_openblas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_scs_LIBRARY
+BLAS_scs_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_sgemm_LIBRARY
+BLAS_sgemm_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_sunperf_LIBRARY
+BLAS_sunperf_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: BLAS_vecLib_LIBRARY
+BLAS_vecLib_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -260,6 +650,22 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER
+CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER_AR
+CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
+CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS
+CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
+CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
+CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE
+CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
+CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
 //Path to cache edit program executable.
@@ -288,11 +694,45 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/benten/projects/programming/cpp/Donnit
+//ADVANCED property for variable: CMAKE_INSTALL_BINDIR
+CMAKE_INSTALL_BINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATADIR
+CMAKE_INSTALL_DATADIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DATAROOTDIR
+CMAKE_INSTALL_DATAROOTDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_DOCDIR
+CMAKE_INSTALL_DOCDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INCLUDEDIR
+CMAKE_INSTALL_INCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_INFODIR
+CMAKE_INSTALL_INFODIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBDIR
+CMAKE_INSTALL_LIBDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LIBEXECDIR
+CMAKE_INSTALL_LIBEXECDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALEDIR
+CMAKE_INSTALL_LOCALEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_LOCALSTATEDIR
+CMAKE_INSTALL_LOCALSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_MANDIR
+CMAKE_INSTALL_MANDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_OLDINCLUDEDIR
+CMAKE_INSTALL_OLDINCLUDEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_RUNSTATEDIR
+CMAKE_INSTALL_RUNSTATEDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SBINDIR
+CMAKE_INSTALL_SBINDIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_INSTALL_SHAREDSTATEDIR
+CMAKE_INSTALL_SHAREDSTATEDIR-ADVANCED:INTERNAL=1
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=0
+//ADVANCED property for variable: CMAKE_INSTALL_SYSCONFDIR
+CMAKE_INSTALL_SYSCONFDIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
 //Name of CMakeLists files to read
@@ -312,7 +752,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -357,4 +797,140 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Compiler support for a deprecated attribute
+COMPILER_HAS_DEPRECATED:INTERNAL=1
+//Test COMPILER_HAS_DEPRECATED_ATTR
+COMPILER_HAS_DEPRECATED_ATTR:INTERNAL=1
+//Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+COMPILER_HAS_HIDDEN_INLINE_VISIBILITY:INTERNAL=1
+//Test COMPILER_HAS_HIDDEN_VISIBILITY
+COMPILER_HAS_HIDDEN_VISIBILITY:INTERNAL=1
+//ADVANCED property for variable: FFTW_DOUBLE_LIB
+FFTW_DOUBLE_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_DOUBLE_OPENMP_LIB
+FFTW_DOUBLE_OPENMP_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_DOUBLE_THREADS_LIB
+FFTW_DOUBLE_THREADS_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_FLOAT_LIB
+FFTW_FLOAT_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_FLOAT_OPENMP_LIB
+FFTW_FLOAT_OPENMP_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_FLOAT_THREADS_LIB
+FFTW_FLOAT_THREADS_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_INCLUDE_DIRS
+FFTW_INCLUDE_DIRS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_LONGDOUBLE_LIB
+FFTW_LONGDOUBLE_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_LONGDOUBLE_OPENMP_LIB
+FFTW_LONGDOUBLE_OPENMP_LIB-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: FFTW_LONGDOUBLE_THREADS_LIB
+FFTW_LONGDOUBLE_THREADS_LIB-ADVANCED:INTERNAL=1
+//Details about finding BLAS
+FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[/usr/lib/libblas.so][v()]
+//Details about finding FFTW
+FIND_PACKAGE_MESSAGE_DETAILS_FFTW:INTERNAL=[/usr/include][ ][v()]
+//Details about finding JPEG
+FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[/usr/lib/libjpeg.so][/usr/include][v80()]
+//Details about finding LAPACK
+FIND_PACKAGE_MESSAGE_DETAILS_LAPACK:INTERNAL=[/usr/lib/liblapack.so;/usr/lib/libblas.so][v()]
+//Details about finding PNG
+FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[/usr/lib/libpng.so][/usr/include][v1.6.58()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v2.5.1()]
+//Details about finding TIFF
+FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[/usr/lib/cmake/tiff][ ][v4.7.1()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/usr/lib/libz.so][/usr/include][ ][v1.3.2()]
+//Have symbol __fbufsize
+HAVE_FBUFSIZE:INTERNAL=1
+//ADVANCED property for variable: JPEG_INCLUDE_DIR
+JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_DEBUG
+JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_RELEASE
+JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_Accelerate_LIBRARY
+LAPACK_Accelerate_LIBRARY-ADVANCED:INTERNAL=1
+//Have function cheev_
+LAPACK_WORKS:INTERNAL=
+//ADVANCED property for variable: LAPACK_armpl_lp64_LIBRARY
+LAPACK_armpl_lp64_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_flame_LIBRARY
+LAPACK_flame_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_flexiblas_LIBRARY
+LAPACK_flexiblas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_goto2_LIBRARY
+LAPACK_goto2_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_lapack_LIBRARY
+LAPACK_lapack_LIBRARY-ADVANCED:INTERNAL=1
+//Have function cheev_
+LAPACK_lapack_WORKS:INTERNAL=1
+//ADVANCED property for variable: LAPACK_mkl_lapack_LIBRARY
+LAPACK_mkl_lapack_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_openblas_LIBRARY
+LAPACK_openblas_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_scs_LIBRARY
+LAPACK_scs_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LAPACK_vecLib_LIBRARY
+LAPACK_vecLib_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+PKG_FFTW_CFLAGS:INTERNAL=-I/usr/include
+PKG_FFTW_CFLAGS_I:INTERNAL=
+PKG_FFTW_CFLAGS_OTHER:INTERNAL=
+PKG_FFTW_FOUND:INTERNAL=1
+PKG_FFTW_INCLUDEDIR:INTERNAL=/usr/include
+PKG_FFTW_INCLUDE_DIRS:INTERNAL=/usr/include
+PKG_FFTW_LDFLAGS:INTERNAL=-L/usr/lib;-lfftw3
+PKG_FFTW_LDFLAGS_OTHER:INTERNAL=
+PKG_FFTW_LIBDIR:INTERNAL=/usr/lib
+PKG_FFTW_LIBRARIES:INTERNAL=fftw3
+PKG_FFTW_LIBRARY_DIRS:INTERNAL=/usr/lib
+PKG_FFTW_LIBS:INTERNAL=
+PKG_FFTW_LIBS_L:INTERNAL=
+PKG_FFTW_LIBS_OTHER:INTERNAL=
+PKG_FFTW_LIBS_PATHS:INTERNAL=
+PKG_FFTW_MODULE_NAME:INTERNAL=fftw3
+PKG_FFTW_PREFIX:INTERNAL=/usr
+PKG_FFTW_STATIC_CFLAGS:INTERNAL=-I/usr/include
+PKG_FFTW_STATIC_CFLAGS_I:INTERNAL=
+PKG_FFTW_STATIC_CFLAGS_OTHER:INTERNAL=
+PKG_FFTW_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include
+PKG_FFTW_STATIC_LDFLAGS:INTERNAL=-L/usr/lib;-lfftw3;-lm
+PKG_FFTW_STATIC_LDFLAGS_OTHER:INTERNAL=
+PKG_FFTW_STATIC_LIBDIR:INTERNAL=
+PKG_FFTW_STATIC_LIBRARIES:INTERNAL=fftw3;m
+PKG_FFTW_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib
+PKG_FFTW_STATIC_LIBS:INTERNAL=
+PKG_FFTW_STATIC_LIBS_L:INTERNAL=
+PKG_FFTW_STATIC_LIBS_OTHER:INTERNAL=
+PKG_FFTW_STATIC_LIBS_PATHS:INTERNAL=
+PKG_FFTW_VERSION:INTERNAL=3.3.11
+PKG_FFTW_fftw3_INCLUDEDIR:INTERNAL=
+PKG_FFTW_fftw3_LIBDIR:INTERNAL=
+PKG_FFTW_fftw3_PREFIX:INTERNAL=
+PKG_FFTW_fftw3_VERSION:INTERNAL=
+//ADVANCED property for variable: PNG_LIBRARY_DEBUG
+PNG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_LIBRARY_RELEASE
+PNG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PNG_PNG_INCLUDE_DIR
+PNG_PNG_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//CMAKE_INSTALL_PREFIX during last run
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+__pkg_config_arguments_PKG_FFTW:INTERNAL=QUIET;fftw3
+__pkg_config_checked_PKG_FFTW:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PKG_FFTW_fftw3
+pkgcfg_lib_PKG_FFTW_fftw3-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib
 

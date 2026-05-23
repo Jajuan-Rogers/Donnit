@@ -15,14 +15,17 @@ ncpp::Plane* get_stdplane(ncpp::NotCurses& nc) {
   return nc.get_stdplane();
 }
 
+
+
+
 int main() {
   notcurses_options opts = {};
   ncpp::NotCurses nc(opts);
 
   ncpp::Plane* stdplane = get_stdplane(nc);
-  Window window(nc, "window_1", "window 1", 20, 20, 20, 20);
+  Window window(nc, "window_1", "window 1", 20, 20, 20, 50);
   int* const x = nullptr;
-  Textbox* textbox = new Textbox(window.window_pile, 10, 10, "widget_1", "myButton");
+  Textbox* textbox = new Textbox(window.window_pile, 10, 10, "textbox_1", "myButton", 50);
   Textbox* textbox_2 = new Textbox(window.window_pile, 14, 10, "widget_2", "myButton_2");
   window.children.push_back(textbox);
   window.children.push_back(textbox_2);
@@ -37,11 +40,8 @@ int main() {
     if (key == NCKEY_ESC) {
       break;
     } else if (nckey_mouse_p(key) and NCTYPE_PRESS) {
-      textbox->textbox_plane->erase();
-      textbox_2->textbox_plane->erase();
     }else {
-      textbox->textbox_plane->putstr(0,0,textbox->text.c_str());
-      textbox_2->textbox_plane->putstr(0,0,textbox_2->text.c_str());
+      textbox->plane->putstr(textbox->get_id().c_str());
     }
     // const char32_t key = nc.get(true, &ncin);
     // myWindow.plane->putc(0,0,key);

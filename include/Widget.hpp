@@ -1,6 +1,7 @@
 #pragma once
 #include "notcurses.h"
 #include <functional>
+#include <iostream>
 #include <ncpp/Plane.hh>
 #include <optional>
 #include <string_view>
@@ -15,7 +16,7 @@ struct KeyboardEvent {
 };
 
 struct Widget {
-  std::string_view id;
+  std::string id;
   int x;
   int y;
   unsigned int w;
@@ -47,5 +48,9 @@ struct Widget {
     root_plane->set_fg_rgb(this->fg_color);
   }
 
+  std::string get_id() {return this->id;}
+
   ~Widget() { delete root_plane; };
+
+
 };

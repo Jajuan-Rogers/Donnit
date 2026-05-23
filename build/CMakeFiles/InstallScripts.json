@@ -1,7 +1,11 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/benten/projects/programming/cpp/Donnit/build/cmake_install.cmake"
+		"/home/benten/projects/programming/cpp/Donnit/build/cmake_install.cmake",
+		"/home/benten/projects/programming/cpp/Donnit/build/3rd_party/matplot++/cmake_install.cmake",
+		"/home/benten/projects/programming/cpp/Donnit/build/3rd_party/matplot++/source/cmake_install.cmake",
+		"/home/benten/projects/programming/cpp/Donnit/build/3rd_party/matplot++/source/3rd_party/cmake_install.cmake",
+		"/home/benten/projects/programming/cpp/Donnit/build/3rd_party/matplot++/source/matplot/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
