@@ -10,6 +10,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o
  /home/benten/projects/programming/cpp/Donnit/include/Textbox.hpp
  /home/benten/projects/programming/cpp/Donnit/include/Widget.hpp
  /home/benten/projects/programming/cpp/Donnit/include/Window.hpp
+ /home/benten/projects/programming/cpp/Donnit/include/ncc_utils.hpp
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -369,6 +370,7 @@ CMakeFiles/Donnit.dir/src/main.cpp.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/syslimits.h
 
 Donnit
+ /opt/cuda/lib64/libOpenCL.so.1
  /usr/lib/Scrt1.o
  /usr/lib/crti.o
  /usr/lib/crtn.o
@@ -388,7 +390,6 @@ Donnit
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/libgcc.a
  /usr/lib/ld-linux-x86-64.so.2
  /usr/lib/libFLAC.so.14
- /usr/lib/libOpenCL.so.1
  /usr/lib/libSPIRV-Tools-opt.so
  /usr/lib/libSPIRV-Tools.so
  /usr/lib/libSvtAv1Enc.so.4
@@ -410,6 +411,7 @@ Donnit
  /usr/lib/libavfilter.so.11
  /usr/lib/libavformat.so.62
  /usr/lib/libavutil.so.60
+ /usr/lib/libblas.so
  /usr/lib/libblkid.so.1
  /usr/lib/libbluray.so.3
  /usr/lib/libbrotlicommon.so.1
@@ -426,17 +428,27 @@ Donnit
  /usr/lib/libdav1d.so.7
  /usr/lib/libdbus-1.so.3
  /usr/lib/libdeflate.so.0
+ /usr/lib/libdl.so.2
  /usr/lib/libdovi.so.3
  /usr/lib/libdrm.so.2
  /usr/lib/libdvdnav.so.4
  /usr/lib/libdvdread.so.8
  /usr/lib/libexpat.so.1
  /usr/lib/libffi.so.8
- /usr/lib/libfftw3.so.3
+ /usr/lib/libfftw3.so
+ /usr/lib/libfftw3_omp.so
+ /usr/lib/libfftw3_threads.so
+ /usr/lib/libfftw3f.so
+ /usr/lib/libfftw3f_omp.so
+ /usr/lib/libfftw3f_threads.so
+ /usr/lib/libfftw3l.so
+ /usr/lib/libfftw3l_omp.so
+ /usr/lib/libfftw3l_threads.so
  /usr/lib/libfontconfig.so.1
  /usr/lib/libfreetype.so.6
  /usr/lib/libfribidi.so.0
  /usr/lib/libgdk_pixbuf-2.0.so.0
+ /usr/lib/libgfortran.so.5
  /usr/lib/libgio-2.0.so.0
  /usr/lib/libglib-2.0.so.0
  /usr/lib/libglslang-default-resource-limits.so.16
@@ -458,10 +470,12 @@ Donnit
  /usr/lib/libidn2.so.0
  /usr/lib/libiec61883.so.0
  /usr/lib/libjack.so.0
- /usr/lib/libjpeg.so.8
+ /usr/lib/libjbig.so.2.1
+ /usr/lib/libjpeg.so
  /usr/lib/libjxl.so.0.11
  /usr/lib/libjxl_cms.so.0.11
  /usr/lib/libjxl_threads.so.0.11
+ /usr/lib/liblapack.so
  /usr/lib/liblcms2.so.2
  /usr/lib/libleancrypto.so.1
  /usr/lib/liblzma.so.5
@@ -489,7 +503,8 @@ Donnit
  /usr/lib/libpipewire-0.3.so.0
  /usr/lib/libpixman-1.so.0
  /usr/lib/libplacebo.so.360
- /usr/lib/libpng16.so.16
+ /usr/lib/libpng.so
+ /usr/lib/libpthread.so.0
  /usr/lib/libpulse.so.0
  /usr/lib/librav1e.so.0.8
  /usr/lib/libraw1394.so.11
@@ -515,6 +530,7 @@ Donnit
  /usr/lib/libthai.so.0
  /usr/lib/libtheoradec.so.2
  /usr/lib/libtheoraenc.so.2
+ /usr/lib/libtiff.so.6.2.0
  /usr/lib/libunibreak.so.7
  /usr/lib/libunistring.so.5
  /usr/lib/libunwind.so.8
@@ -544,7 +560,7 @@ Donnit
  /usr/lib/libxcb.so.1
  /usr/lib/libxml2.so.16
  /usr/lib/libxvidcore.so.4
- /usr/lib/libz.so.1
+ /usr/lib/libz.so
  /usr/lib/libzimg.so.2
  /usr/lib/libzmq.so.5
  /usr/lib/libzstd.so.1
@@ -565,11 +581,13 @@ Donnit
  /usr/lib32/libbz2.so.1.0
  /usr/lib32/libcrypto.so.3
  /usr/lib32/libdbus-1.so.3
+ /usr/lib32/libdl.so.2
  /usr/lib32/libdrm.so.2
  /usr/lib32/libexpat.so.1
  /usr/lib32/libffi.so.8
  /usr/lib32/libfontconfig.so.1
  /usr/lib32/libfreetype.so.6
+ /usr/lib32/libgfortran.so.5
  /usr/lib32/libgio-2.0.so.0
  /usr/lib32/libglib-2.0.so.0
  /usr/lib32/libgmodule-2.0.so.0
@@ -588,7 +606,7 @@ Donnit
  /usr/lib32/libp11-kit.so.0
  /usr/lib32/libpcre2-8.so.0
  /usr/lib32/libpipewire-0.3.so.0
- /usr/lib32/libpng16.so.16
+ /usr/lib32/libpthread.so.0
  /usr/lib32/libsystemd.so.0
  /usr/lib32/libtasn1.so.6
  /usr/lib32/libunistring.so.5
@@ -603,8 +621,9 @@ Donnit
  /usr/lib32/libxcb-xfixes.so.0
  /usr/lib32/libxcb.so.1
  /usr/lib32/libxml2.so.16
- /usr/lib32/libz.so.1
  /usr/lib32/libzstd.so.1
+ /home/benten/projects/programming/cpp/Donnit/build/3rd_party/matplot++/source/3rd_party/libnodesoup.a
+ /home/benten/projects/programming/cpp/Donnit/build/3rd_party/matplot++/source/matplot/libmatplot.a
  /home/benten/projects/programming/cpp/Donnit/build/CMakeFiles/Donnit.dir/src/Window.cpp.o
  /home/benten/projects/programming/cpp/Donnit/build/CMakeFiles/Donnit.dir/src/main.cpp.o
 

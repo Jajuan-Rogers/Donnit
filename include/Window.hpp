@@ -24,15 +24,16 @@ struct Window {
   ncpp::Plane* window_pile = nullptr;  // the pil
   std::string title;
   std::vector<Widget*> children;       // storage for arbitrary planes that are also on the pile
+  std::vector<char32_t> key_events;
 
   Window(
       ncpp::NotCurses& nc,
       std::string id,
-      std::string title,
       int y,
       int x,
       unsigned int w,
       unsigned int h,
+      std::string title="",
       ncplane_options* popts = nullptr,
       uint32_t bg_color = 0x000000,
       uint32_t fg_color = 0xFF0000) {
