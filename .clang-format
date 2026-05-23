@@ -1,0 +1,136 @@
+# .clang-format — Readability-first style, inspired by Ruff's Python formatting.
+#
+# Core philosophy:
+#   - Align everything that can be aligned (args, assignments, declarations)
+#   - Only wrap lines when they're meaningfully long (>= ~60% of a standard screen)
+#   - Keep braces, brackets, and parens visually balanced and predictable
+#   - Prefer vertical clarity over horizontal compactness
+
+---
+Language: Cpp
+BasedOnStyle: LLVM  # Good neutral baseline; we override heavily below
+
+# ── Column width ─────────────────────────────────────────────────────────────
+# 120 cols = "20% past center of an 80-col screen" is roughly the midpoint of
+# a standard 1080p editor at default font. Wrapping only happens beyond this.
+ColumnLimit: 120
+
+# ── Indentation ───────────────────────────────────────────────────────────────
+IndentWidth:                    2   # 4-space indents — more readable than 2
+TabWidth:                       2
+UseTab:                         Never
+ContinuationIndentWidth:        4   # Continuation lines align cleanly with body
+IndentCaseLabels:               true  # `case` indented under `switch`, not flush
+IndentPPDirectives:             BeforeHash  # #ifdef ladders look like code blocks
+NamespaceIndentation:           None  # Don't indent inside namespace — saves levels
+
+# ── Function arguments & parameters ──────────────────────────────────────────
+# When a call/definition DOES wrap, each arg gets its own line, all aligned
+# to the opening paren. This is the "neat column" look.
+AlignAfterOpenBracket:          AlwaysBreak  # First arg on next line when wrapping
+BinPackArguments:               false   # Never scatter args across lines randomly
+BinPackParameters:              false   # Same for function definitions
+AllowAllArgumentsOnNextLine:    false   # Force the aligned-column style
+AllowAllParametersOfDeclarationOnNextLine: false
+
+# ── Braces & blocks ───────────────────────────────────────────────────────────
+BreakBeforeBraces:              Attach  # K&R style — brace on same line as statement
+                                        # (cleaner than Allman for most modern code)
+BraceWrapping:
+  AfterCaseLabel:               false
+  AfterClass:                   false
+  AfterControlStatement:        Never
+  AfterEnum:                    false
+  AfterFunction:                false
+  AfterNamespace:               false
+  AfterStruct:                  false
+  AfterUnion:                   false
+  BeforeCatch:                  false
+  BeforeElse:                   false
+  SplitEmptyFunction:           false   # Empty bodies stay on one line: `{}`
+  SplitEmptyRecord:             false
+  SplitEmptyNamespace:          false
+
+# ── Short constructs — keep on one line when they fit ─────────────────────────
+# Small things stay compact; only genuinely long constructs wrap.
+AllowShortFunctionsOnASingleLine:   Inline   # Inline class methods can be one-liners
+AllowShortLambdasOnASingleLine:     All      # Lambdas almost always read better inline
+AllowShortIfStatementsOnASingleLine: Never   # Always brace+newline if-bodies (safer)
+AllowShortLoopsOnASingleLine:       false    # Same for loops
+AllowShortCaseLabelsOnASingleLine:  false    # Each case gets its own block
+AllowShortBlocksOnASingleLine:      Empty    # Only empty `{}` can be one-liners
+
+# ── Alignment — the heart of the "neat" look ─────────────────────────────────
+# Consecutive declarations, assignments, and bit-fields all align their tokens
+# into columns, like a well-formatted table.
+AlignConsecutiveAssignments:
+  Enabled:                      false  # Restored to default — no padding around = signs
+
+AlignConsecutiveDeclarations:
+  Enabled:                      false  # Restored to default — types and names stay naturally spaced
+
+AlignConsecutiveMacros:
+  Enabled:                      true   # #define values line up too
+  AcrossEmptyLines:             false
+  AcrossComments:               false
+
+AlignConsecutiveBitFields:
+  Enabled:                      true   # Struct bit-fields align their colons
+
+AlignEscapedNewlines:           Left   # Backslash continuations align left in macros
+AlignOperands:                  Align  # Multi-line expressions align their operators
+AlignTrailingComments:
+  Kind:                         Always
+  OverEmptyLines:               1      # Trailing comments line up as a column
+
+# ── Line breaking — only when genuinely needed ────────────────────────────────
+BreakBeforeBinaryOperators:     NonAssignment  # Operator goes to next line (readable)
+BreakBeforeTernaryOperators:    true           # ? and : start lines in long ternaries
+BreakConstructorInitializers:   BeforeColon    # `: member(val)` on its own line
+BreakInheritanceList:           BeforeColon    # Same for base class lists
+BreakStringLiterals:            false          # Never auto-split string literals
+
+# ── Spaces — visual breathing room ───────────────────────────────────────────
+SpaceAfterCStyleCast:           true    # `(int) x` not `(int)x`
+SpaceAfterLogicalNot:           false   # `!x` stays tight
+SpaceAfterTemplateKeyword:      true    # `template <typename T>`
+SpaceAroundPointerQualifiers:   Default
+SpaceBeforeAssignmentOperators: true    # `x = 1` always
+SpaceBeforeCpp11BracedList:     true    # `Type {val}` — brace lists breathe
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon:    true
+SpaceBeforeParens:              ControlStatements  # Space in `if (`, `while (`, etc.
+SpaceBeforeRangeBasedForLoopColon: true            # `for (auto x : vec)`
+SpaceInEmptyParentheses:        false
+SpacesBeforeTrailingComments:   2       # Two spaces before // comments — visible gap
+SpacesInAngles:                 Never   # `<T>` not `< T >`
+SpacesInCStyleCastParentheses:  false
+SpacesInConditionalStatement:   false
+SpacesInContainerLiterals:      true    # `{ 1, 2, 3 }` — breathing room in literals
+SpacesInParentheses:            false
+SpacesInSquareBrackets:         false
+
+# ── Pointer & reference alignment ────────────────────────────────────────────
+PointerAlignment:               Left   # `int* p` — type owns the star (modern style)
+ReferenceAlignment:             Left   # `int& r` — same logic
+
+# ── Include sorting (like isort for Python) ───────────────────────────────────
+SortIncludes:                   CaseSensitive
+IncludeBlocks:                  Regroup   # Groups: own header, then system, then third-party
+
+# ── Misc readability ──────────────────────────────────────────────────────────
+MaxEmptyLinesToKeep:            2        # Never more than 2 blank lines in a row
+KeepEmptyLinesAtTheStartOfBlocks: false  # No blank line immediately after `{`
+EmptyLineBeforeAccessModifier:  LogicalBlock  # Blank line before `public:` / `private:`
+EmptyLineAfterAccessModifier:   Never         # But not after — the decls follow directly
+ReflowComments:                 true     # Wrap long // comments to ColumnLimit
+CompactNamespaces:              false    # `namespace a { namespace b {` stays split
+FixNamespaceComments:           true     # Adds `} // namespace foo` automatically
+InsertTrailingCommas:           None     # C++ doesn't benefit from trailing commas
+SeparateDefinitionBlocks:       Always   # Blank line between function/class definitions
+
+# ── C++ specific ──────────────────────────────────────────────────────────────
+Standard:                       Latest  # Use latest C++ standard formatting rules
+Cpp11BracedListStyle:           true    # Modern `Type{val}` initializer style
+
+...

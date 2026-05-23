@@ -1,9 +1,12 @@
 #pragma once
 
+#include "Widget.hpp"
 #include "ncpp/Visual.hh"
+#include "notcurses.h"
+
 #include <cstdint>
+#include <ncpp/NotCurses.hh>
 #include <ncpp/Plane.hh>
-#include <optional>
 #include <span>
 #include <variant>
 #include <vector>
@@ -18,31 +21,44 @@ struct Window {
   int w;
   uint32_t bg_color = 0x000000;
   uint32_t fg_color = 0xFF0000;
-  ncpp::Plane *plane;
-  std::optional<std::string> title;
-  std::vector<ncpp::Plane*> children;
+  ncpp::Plane* window_pile = nullptr;  // the pil
+  std::string title;
+  std::vector<Widget*> children;       // storage for arbitrary planes that are also on the pile
 
-  Window(ncpp::Plane *stdplane, std::string id, int x, int y, unsigned int w,
-         unsigned int h, ncplane_options *popts) {
-    ncplane_options local_opts;
+  Window(
+      ncpp::NotCurses& nc,
+      std::string id,
+      std::string title,
+      int y,
+      int x,
+      unsigned int w,
+      unsigned int h,
+      ncplane_options* popts = nullptr,
+      uint32_t bg_color = 0x000000,
+      uint32_t fg_color = 0xFF0000) {
+    this->x = x;
+    this->y = y;
+    this->w = w;
+    this->h = h;
+    this->bg_color = bg_color;
+    this->fg_color = fg_color;
+    ncplane_options local_opts {};
     if (popts == nullptr) {
       local_opts = {.y = y, .x = x, .rows = h, .cols = w, .userptr = nullptr};
       popts = &local_opts;
     }
-    struct ncplane *raw_plane = ncpile_create(stdplane->get_notcurses(), popts);
-    if (raw_plane == nullptr) {
-      std::runtime_error{"failed to make plane for widget"};
-    }
-    this->plane = new ncpp::Plane(raw_plane);
+    struct ncplane* pile = ncpile_create(nc, popts);
+    window_pile = new ncpp::Plane(pile);
   }
 
+  ~Window() {
+    for (Widget* widget : children) {
+      delete widget;
+    }
+    delete window_pile;
+  }
 };
 
-void set_window_title(Window &window, const std::string &title);
-Window new_window(std::string id, int x, int y, int w, int h, uint32_t bg_color,
-                  uint32_t fg_color, ncpp::Plane &stdplane,
-                  std::string window_title);
-
-bool add_child();
-void move_window(Window &window, int y, int x);
-void update_window(Window &window);
+bool add_child(Window& window, Widget& child);
+void move_window(Window& window, int y, int x);
+void update_window(Window& window);

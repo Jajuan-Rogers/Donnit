@@ -1,6 +1,7 @@
 CMakeFiles/Donnit.dir/src/main.cpp.o: \
  /home/benten/projects/programming/cpp/Donnit/src/main.cpp \
  /usr/include/stdc-predef.h \
+ /home/benten/projects/programming/cpp/Donnit/include/Textbox.hpp \
  /home/benten/projects/programming/cpp/Donnit/include/Widget.hpp \
  /usr/include/notcurses/notcurses.h /usr/include/time.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -203,7 +204,15 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: \
  /usr/include/ncpp/Cell.hh /usr/include/ncpp/CellStyle.hh \
  /usr/include/ncpp/_flag_enum_operator_helpers.hh \
  /usr/include/ncpp/NCAlign.hh /usr/include/ncpp/NCBox.hh \
- /usr/include/c++/16.1.1/optional /usr/include/fmt/base.h \
+ /usr/include/c++/16.1.1/optional \
+ /home/benten/projects/programming/cpp/Donnit/include/Window.hpp \
+ /usr/include/ncpp/Visual.hh /usr/include/ncpp/Plane.hh \
+ /usr/include/ncpp/Utilities.hh /usr/include/ncpp/NotCurses.hh \
+ /usr/include/c++/16.1.1/csignal /usr/include/ncpp/NCKey.hh \
+ /usr/include/ncpp/NCLogLevel.hh /usr/include/ncpp/Palette.hh \
+ /usr/include/ncpp/NotCurses.hh /usr/include/c++/16.1.1/span \
+ /usr/include/c++/16.1.1/variant /usr/include/c++/16.1.1/bits/monostate.h \
+ /usr/include/notcurses/nckeys.h /usr/include/fmt/base.h \
  /usr/include/fmt/format.h /usr/include/fmt/base.h \
  /usr/include/c++/16.1.1/cmath /usr/include/math.h \
  /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
@@ -225,9 +234,4 @@ CMakeFiles/Donnit.dir/src/main.cpp.o: \
  /usr/include/c++/16.1.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/16.1.1/tr1/riemann_zeta.tcc \
  /usr/include/c++/16.1.1/cstring /usr/include/c++/16.1.1/system_error \
- /usr/include/ncpp/Cell.hh /usr/include/ncpp/NotCurses.hh \
- /usr/include/c++/16.1.1/csignal /usr/include/ncpp/NCKey.hh \
- /usr/include/ncpp/NCLogLevel.hh /usr/include/ncpp/Palette.hh \
- /usr/include/ncpp/Plane.hh /usr/include/ncpp/Visual.hh \
- /usr/include/ncpp/Utilities.hh /usr/include/ncpp/NotCurses.hh \
- /usr/include/ncpp/ncpp.hh /usr/include/notcurses/nckeys.h
+ /usr/include/ncpp/Cell.hh /usr/include/ncpp/ncpp.hh
